@@ -1,0 +1,56 @@
+    * {
+       background-color:      rgba(56,60,74,60%);
+       text-color:            White;
+       border-color:          White;
+       font:            "System San Francisco Display 20";
+    }
+
+    #window {
+        orientation: horizontal;
+        //y-offset:   1em;
+        fullscreen: true;
+        children:   [ lixo1, mainbox, lixo2 ];
+    }
+
+    #mainbox {
+        background-color: transparent;
+        orientation: vertical;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        children:   [lixo3, inputbar, listview ];
+    }
+
+    #lixo1, lixo2,lixo3 {
+        background-color: transparent;
+        expand: true;
+    }
+
+    #inputbar {
+        color: transparent;
+        padding: 0px;
+        background-color: transparent;
+    }
+
+    #entry,case-indicator {
+        background-color: transparent;
+        text-font: inherit;
+    }
+
+    #listview {
+        padding: 4px;
+        background-color: transparent;
+        layout:     vertical;
+        lines:      10;
+        cycle: true;
+    }
+
+    #element {
+        background-color: transparent;
+        padding: 0px 2px;
+    }
+
+    #element selected {
+        text: black;
+        background-color: transparent;
+    }
