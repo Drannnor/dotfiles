@@ -1,0 +1,2453 @@
+2025-04-23 10:34:21 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:34:21 INFO config.py:61: Created default config file at C:\Users\Saberporto196\.config\yasb\config.yaml
+2025-04-23 10:34:21 INFO config.py:75: Created default stylesheet at C:\Users\Saberporto196\.config\yasb\styles.css
+2025-04-23 10:34:21 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 10:34:21 INFO weather.py:349: Fetched new weather data at 2025-04-23 10:34:21.711736
+2025-04-23 10:34:21 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 10:34:22 INFO weather.py:349: Fetched new weather data at 2025-04-23 10:34:22.588689
+2025-04-23 10:34:22 INFO weather.py:349: Fetched new weather data at 2025-04-23 10:34:22.989857
+2025-04-23 10:34:23 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 10:34:23 INFO event_listener.py:53: Created named pipe yasb-23d97760-2026-11f0-986b-5cf3708d99f0
+2025-04-23 10:34:23 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 10:34:23 DEBUG _windows.py:192: Thread started
+2025-04-23 10:34:35 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:34:35 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-23 10:34:54 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:34:54 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 10:34:54 INFO weather.py:349: Fetched new weather data at 2025-04-23 10:34:54.839304
+2025-04-23 10:34:54 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 10:34:55 INFO weather.py:349: Fetched new weather data at 2025-04-23 10:34:55.688609
+2025-04-23 10:34:56 INFO weather.py:349: Fetched new weather data at 2025-04-23 10:34:56.087894
+2025-04-23 10:34:56 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 10:34:56 INFO event_listener.py:53: Created named pipe yasb-3793d7a6-2026-11f0-be7a-5cf3708d99f0
+2025-04-23 10:34:56 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 10:34:56 DEBUG _windows.py:192: Thread started
+2025-04-23 10:36:38 INFO controller.py:27: Exiting Application from CLI...
+2025-04-23 10:36:38 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-23 10:36:38 DEBUG _windows.py:201: Exiting thread
+2025-04-23 10:36:38 DEBUG _windows.py:75: Closing
+2025-04-23 10:36:38 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x000001CD56B1FA70>. Removing link to WinEvent.EventObjectHide.
+2025-04-23 10:36:38 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x000001CD56B1FA70>. Removing link to WinEvent.EventObjectDestroy.
+2025-04-23 10:36:38 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x000001CD5FFC3430>. Removing link to WinEvent.EventObjectHide.
+2025-04-23 10:36:38 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x000001CD5FFC3430>. Removing link to WinEvent.EventObjectDestroy.
+2025-04-23 10:36:38 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x000001CD57FBE350>. Removing link to WinEvent.EventObjectDestroy.
+2025-04-23 10:36:39 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:36:39 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 10:36:39 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 10:36:39 INFO weather.py:349: Fetched new weather data at 2025-04-23 10:36:39.664608
+2025-04-23 10:36:40 INFO weather.py:349: Fetched new weather data at 2025-04-23 10:36:40.032267
+2025-04-23 10:36:40 INFO weather.py:349: Fetched new weather data at 2025-04-23 10:36:40.178185
+2025-04-23 10:36:40 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 10:36:40 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 10:36:40 DEBUG _windows.py:192: Thread started
+2025-04-23 10:37:59 INFO controller.py:12: Reloading Application because of config update...
+2025-04-23 10:37:59 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-23 10:37:59 DEBUG _windows.py:201: Exiting thread
+2025-04-23 10:37:59 DEBUG _windows.py:75: Closing
+2025-04-23 10:38:00 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:38:00 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 10:38:00 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 10:38:01 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 10:38:01 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 10:38:01 DEBUG _windows.py:192: Thread started
+2025-04-23 10:39:56 INFO controller.py:12: Reloading Application because of config update...
+2025-04-23 10:39:56 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-23 10:39:56 DEBUG _windows.py:201: Exiting thread
+2025-04-23 10:39:56 DEBUG _windows.py:75: Closing
+2025-04-23 10:39:56 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:39:56 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 10:39:57 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 10:39:57 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 10:39:57 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 10:39:57 DEBUG _windows.py:192: Thread started
+2025-04-23 10:40:15 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:40:15 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-23 10:40:19 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:40:20 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 10:40:20 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 10:40:20 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 10:40:20 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 10:40:20 DEBUG _windows.py:192: Thread started
+2025-04-23 10:53:24 INFO controller.py:12: Reloading Application because of config update...
+2025-04-23 10:53:24 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-23 10:53:24 DEBUG _windows.py:201: Exiting thread
+2025-04-23 10:53:24 DEBUG _windows.py:75: Closing
+2025-04-23 10:53:24 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:53:24 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 10:53:25 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 10:53:25 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 10:53:25 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 10:53:25 DEBUG _windows.py:192: Thread started
+2025-04-23 10:53:36 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:53:36 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-23 10:53:42 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:53:43 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 10:53:43 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 10:53:43 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 10:53:44 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 10:53:44 DEBUG _windows.py:192: Thread started
+2025-04-23 10:56:14 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:56:14 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-23 10:56:22 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:56:22 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 10:56:22 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 10:56:23 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 10:56:23 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 10:56:23 DEBUG _windows.py:192: Thread started
+2025-04-23 10:57:58 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:57:58 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-23 10:58:02 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:58:02 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 10:58:02 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 10:58:03 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 10:58:03 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 10:58:03 DEBUG _windows.py:192: Thread started
+2025-04-23 10:59:05 INFO controller.py:12: Reloading Application because of config update...
+2025-04-23 10:59:05 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-23 10:59:05 DEBUG _windows.py:201: Exiting thread
+2025-04-23 10:59:05 DEBUG _windows.py:75: Closing
+2025-04-23 10:59:05 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:59:05 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-23 10:59:17 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:59:17 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 10:59:17 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 10:59:18 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 10:59:18 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 10:59:18 DEBUG _windows.py:192: Thread started
+2025-04-23 10:59:50 INFO controller.py:12: Reloading Application because of config update...
+2025-04-23 10:59:50 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-23 10:59:50 DEBUG _windows.py:201: Exiting thread
+2025-04-23 10:59:50 DEBUG _windows.py:75: Closing
+2025-04-23 10:59:50 INFO log.py:21: Yasb v1.7.0
+2025-04-23 10:59:50 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 10:59:50 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 10:59:51 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 10:59:51 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 10:59:51 DEBUG _windows.py:192: Thread started
+2025-04-23 11:04:10 INFO controller.py:12: Reloading Application because of config update...
+2025-04-23 11:04:10 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-23 11:04:10 DEBUG _windows.py:201: Exiting thread
+2025-04-23 11:04:10 DEBUG _windows.py:75: Closing
+2025-04-23 11:04:10 INFO log.py:21: Yasb v1.7.0
+2025-04-23 11:04:10 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-23 11:04:31 INFO log.py:21: Yasb v1.7.0
+2025-04-23 11:04:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:04:31.362702
+2025-04-23 11:04:31 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 11:04:31 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 11:04:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:04:32.071100
+2025-04-23 11:04:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:04:32.535901
+2025-04-23 11:04:32 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 11:04:32 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 11:04:32 DEBUG _windows.py:192: Thread started
+2025-04-23 11:04:34 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-23 11:14:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:14:31.360843
+2025-04-23 11:14:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:14:32.071450
+2025-04-23 11:14:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:14:32.530728
+2025-04-23 11:24:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:24:31.354916
+2025-04-23 11:24:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:24:32.066393
+2025-04-23 11:24:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:24:32.528107
+2025-04-23 11:34:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:34:31.351613
+2025-04-23 11:34:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:34:32.056880
+2025-04-23 11:34:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:34:32.532916
+2025-04-23 11:44:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:44:31.360293
+2025-04-23 11:44:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:44:32.055031
+2025-04-23 11:44:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:44:32.532748
+2025-04-23 11:54:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:54:31.356573
+2025-04-23 11:54:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:54:32.061912
+2025-04-23 11:54:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 11:54:32.523862
+2025-04-23 12:04:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:04:31.355009
+2025-04-23 12:04:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:04:32.048987
+2025-04-23 12:04:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:04:32.526313
+2025-04-23 12:14:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:14:31.347392
+2025-04-23 12:14:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:14:32.054898
+2025-04-23 12:14:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:14:32.517577
+2025-04-23 12:24:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:24:31.347561
+2025-04-23 12:24:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:24:32.058328
+2025-04-23 12:24:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:24:32.519159
+2025-04-23 12:34:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:34:31.353808
+2025-04-23 12:34:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:34:32.047157
+2025-04-23 12:34:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:34:32.525509
+2025-04-23 12:44:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:44:31.349560
+2025-04-23 12:44:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:44:32.041581
+2025-04-23 12:44:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:44:32.520598
+2025-04-23 12:54:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:54:31.340582
+2025-04-23 12:54:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:54:32.050342
+2025-04-23 12:54:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 12:54:32.512442
+2025-04-23 13:04:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:04:31.338284
+2025-04-23 13:04:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:04:32.048868
+2025-04-23 13:04:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:04:32.514891
+2025-04-23 13:14:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:14:31.343958
+2025-04-23 13:14:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:14:32.037964
+2025-04-23 13:14:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:14:32.515313
+2025-04-23 13:24:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:24:31.330889
+2025-04-23 13:24:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:24:32.040932
+2025-04-23 13:24:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:24:32.517546
+2025-04-23 13:34:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:34:31.332957
+2025-04-23 13:34:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:34:32.042787
+2025-04-23 13:34:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:34:32.501787
+2025-04-23 13:44:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:44:31.342681
+2025-04-23 13:44:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:44:32.037826
+2025-04-23 13:44:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:44:32.513799
+2025-04-23 13:54:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:54:31.337142
+2025-04-23 13:54:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:54:32.029275
+2025-04-23 13:54:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 13:54:32.504834
+2025-04-23 14:04:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:04:31.337976
+2025-04-23 14:04:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:04:32.036983
+2025-04-23 14:04:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:04:32.498127
+2025-04-23 14:14:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:14:31.325273
+2025-04-23 14:14:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:14:32.029567
+2025-04-23 14:14:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:14:32.508942
+2025-04-23 14:24:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:24:31.330579
+2025-04-23 14:24:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:24:32.036107
+2025-04-23 14:24:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:24:32.498979
+2025-04-23 14:34:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:34:31.322680
+2025-04-23 14:34:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:34:32.024252
+2025-04-23 14:34:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:34:32.502842
+2025-04-23 14:44:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:44:31.323079
+2025-04-23 14:44:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:44:32.032421
+2025-04-23 14:44:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:44:32.493378
+2025-04-23 14:54:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:54:31.321006
+2025-04-23 14:54:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:54:32.028832
+2025-04-23 14:54:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 14:54:32.491754
+2025-04-23 15:04:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:04:31.319157
+2025-04-23 15:04:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:04:32.021107
+2025-04-23 15:04:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:04:32.500347
+2025-04-23 15:14:31 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:14:31.317176
+2025-04-23 15:14:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:14:32.022832
+2025-04-23 15:14:32 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:14:32.500161
+2025-04-23 15:23:18 INFO log.py:21: Yasb v1.7.0
+2025-04-23 15:23:18 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:23:18.769517
+2025-04-23 15:23:18 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 15:23:18 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 15:23:19 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:23:19.800091
+2025-04-23 15:23:19 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:23:19.975759
+2025-04-23 15:23:20 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 15:23:20 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 15:23:20 DEBUG _windows.py:192: Thread started
+2025-04-23 15:23:21 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-23 15:29:18 INFO controller.py:12: Reloading Application because of config update...
+2025-04-23 15:29:18 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-23 15:29:18 DEBUG _windows.py:201: Exiting thread
+2025-04-23 15:29:18 DEBUG _windows.py:75: Closing
+2025-04-23 15:29:18 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000001C785C107D0>. Removing link to WinEvent.EventObjectStateChange.
+2025-04-23 15:29:18 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000001C785C48690>. Removing link to WinEvent.EventObjectStateChange.
+2025-04-23 15:29:18 INFO log.py:21: Yasb v1.7.0
+2025-04-23 15:29:18 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-23 15:29:24 INFO log.py:21: Yasb v1.7.0
+2025-04-23 15:29:24 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:29:24.766481
+2025-04-23 15:29:24 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 15:29:24 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 15:29:25 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-23 15:29:25 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:29:25.431021
+2025-04-23 15:29:25 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:29:25.845453
+2025-04-23 15:29:25 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 15:29:25 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 15:29:25 DEBUG _windows.py:192: Thread started
+2025-04-23 15:39:24 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:39:24.758595
+2025-04-23 15:39:25 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:39:25.429282
+2025-04-23 15:39:25 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:39:25.830280
+2025-04-23 15:49:24 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:49:24.750446
+2025-04-23 15:49:25 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:49:25.427199
+2025-04-23 15:49:25 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:49:25.842279
+2025-04-23 15:59:24 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:59:24.760282
+2025-04-23 15:59:25 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:59:25.434845
+2025-04-23 15:59:25 INFO weather.py:349: Fetched new weather data at 2025-04-23 15:59:25.836605
+2025-04-23 16:02:25 INFO controller.py:12: Reloading Application because of screen update...
+2025-04-23 16:02:25 INFO bar.py:99: Screen geometry changed. Updating position for bar (status-bar_DELL P2422H (2)_d4bb79b8)
+2025-04-23 16:02:26 INFO controller.py:12: Reloading Application because of screen update...
+2025-04-23 16:02:27 INFO log.py:21: Yasb v1.7.0
+2025-04-23 16:02:28 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:02:28.320817
+2025-04-23 16:02:28 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 16:02:28 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 16:02:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:02:29.317125
+2025-04-23 16:02:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:02:29.637446
+2025-04-23 16:02:29 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 16:02:29 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 16:02:29 DEBUG _windows.py:192: Thread started
+2025-04-23 16:02:30 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-23 16:12:28 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:12:28.320862
+2025-04-23 16:12:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:12:29.316786
+2025-04-23 16:12:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:12:29.624435
+2025-04-23 16:22:28 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:22:28.309734
+2025-04-23 16:22:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:22:29.309180
+2025-04-23 16:22:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:22:29.635395
+2025-04-23 16:32:28 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:32:28.320411
+2025-04-23 16:32:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:32:29.319390
+2025-04-23 16:32:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:32:29.626102
+2025-04-23 16:42:28 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:42:28.312043
+2025-04-23 16:42:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:42:29.311536
+2025-04-23 16:42:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:42:29.620674
+2025-04-23 16:52:28 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:52:28.307451
+2025-04-23 16:52:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:52:29.307422
+2025-04-23 16:52:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 16:52:29.629763
+2025-04-23 17:02:28 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:02:28.311137
+2025-04-23 17:02:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:02:29.306838
+2025-04-23 17:02:29 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:02:29.630683
+2025-04-23 17:08:00 INFO controller.py:12: Reloading Application because of screen update...
+2025-04-23 17:08:00 INFO bar.py:99: Screen geometry changed. Updating position for bar (status-bar_DELL P2422H (2)_8c29d9e1)
+2025-04-23 17:08:01 INFO controller.py:12: Reloading Application because of screen update...
+2025-04-23 17:08:02 INFO log.py:21: Yasb v1.7.0
+2025-04-23 17:08:03 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:08:03.140741
+2025-04-23 17:08:03 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 17:08:03 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 17:08:04 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:08:04.078099
+2025-04-23 17:08:04 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:08:04.544207
+2025-04-23 17:08:04 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 17:08:04 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 17:08:04 DEBUG _windows.py:192: Thread started
+2025-04-23 17:08:05 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-23 17:12:31 INFO controller.py:12: Reloading Application because of screen update...
+2025-04-23 17:12:31 INFO bar.py:99: Screen geometry changed. Updating position for bar (status-bar_DELL P2422H (2)_eec048be)
+2025-04-23 17:12:32 INFO controller.py:12: Reloading Application because of screen update...
+2025-04-23 17:12:33 INFO log.py:21: Yasb v1.7.0
+2025-04-23 17:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:12:33.614478
+2025-04-23 17:12:33 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-23 17:12:33 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-23 17:12:34 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-23 17:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:12:34.538643
+2025-04-23 17:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:12:34.877086
+2025-04-23 17:12:35 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-23 17:12:35 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-23 17:12:35 DEBUG _windows.py:192: Thread started
+2025-04-23 17:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:22:33.635851
+2025-04-23 17:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:22:34.546467
+2025-04-23 17:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:22:34.902386
+2025-04-23 17:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:32:33.636810
+2025-04-23 17:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:32:34.562196
+2025-04-23 17:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:32:34.911846
+2025-04-23 17:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:42:33.660551
+2025-04-23 17:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:42:34.585243
+2025-04-23 17:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:42:34.926117
+2025-04-23 17:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:52:33.663113
+2025-04-23 17:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:52:34.586004
+2025-04-23 17:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 17:52:34.938725
+2025-04-23 18:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:02:33.673808
+2025-04-23 18:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:02:34.602553
+2025-04-23 18:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:02:34.953808
+2025-04-23 18:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:12:33.699198
+2025-04-23 18:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:12:34.607336
+2025-04-23 18:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:12:34.961990
+2025-04-23 18:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:22:33.706522
+2025-04-23 18:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:22:34.620362
+2025-04-23 18:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:22:34.974047
+2025-04-23 18:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:32:33.718614
+2025-04-23 18:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:32:34.629022
+2025-04-23 18:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:32:34.981987
+2025-04-23 18:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:42:33.712940
+2025-04-23 18:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:42:34.635179
+2025-04-23 18:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:42:34.985327
+2025-04-23 18:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:52:33.729284
+2025-04-23 18:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:52:34.647379
+2025-04-23 18:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 18:52:34.987191
+2025-04-23 19:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:02:33.733887
+2025-04-23 19:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:02:34.659972
+2025-04-23 19:02:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:02:35.001002
+2025-04-23 19:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:12:33.739850
+2025-04-23 19:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:12:34.660728
+2025-04-23 19:12:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:12:35.000171
+2025-04-23 19:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:22:33.751619
+2025-04-23 19:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:22:34.674164
+2025-04-23 19:22:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:22:35.013893
+2025-04-23 19:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:32:33.749452
+2025-04-23 19:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:32:34.677640
+2025-04-23 19:32:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:32:35.018682
+2025-04-23 19:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:42:33.764376
+2025-04-23 19:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:42:34.675377
+2025-04-23 19:42:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:42:35.017286
+2025-04-23 19:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:52:33.763830
+2025-04-23 19:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:52:34.688977
+2025-04-23 19:52:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 19:52:35.027771
+2025-04-23 20:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:02:33.765323
+2025-04-23 20:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:02:34.695751
+2025-04-23 20:02:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:02:35.034926
+2025-04-23 20:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:12:33.772280
+2025-04-23 20:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:12:34.688129
+2025-04-23 20:12:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:12:35.038843
+2025-04-23 20:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:22:33.778354
+2025-04-23 20:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:22:34.703908
+2025-04-23 20:22:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:22:35.044215
+2025-04-23 20:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:32:33.784990
+2025-04-23 20:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:32:34.704107
+2025-04-23 20:32:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:32:35.042584
+2025-04-23 20:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:42:33.779460
+2025-04-23 20:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:42:34.703620
+2025-04-23 20:42:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:42:35.041425
+2025-04-23 20:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:52:33.787404
+2025-04-23 20:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:52:34.709441
+2025-04-23 20:52:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 20:52:35.045247
+2025-04-23 21:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:02:33.778778
+2025-04-23 21:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:02:34.714951
+2025-04-23 21:02:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:02:35.053579
+2025-04-23 21:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:12:33.786065
+2025-04-23 21:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:12:34.710830
+2025-04-23 21:12:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:12:35.052790
+2025-04-23 21:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:22:33.789898
+2025-04-23 21:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:22:34.715916
+2025-04-23 21:22:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:22:35.056187
+2025-04-23 21:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:32:33.790037
+2025-04-23 21:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:32:34.713560
+2025-04-23 21:32:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:32:35.052415
+2025-04-23 21:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:42:33.793811
+2025-04-23 21:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:42:34.721182
+2025-04-23 21:42:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:42:35.058029
+2025-04-23 21:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:52:33.790150
+2025-04-23 21:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:52:34.714209
+2025-04-23 21:52:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 21:52:35.065938
+2025-04-23 22:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:02:33.803156
+2025-04-23 22:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:02:34.714267
+2025-04-23 22:02:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:02:35.066804
+2025-04-23 22:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:12:33.798194
+2025-04-23 22:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:12:34.716282
+2025-04-23 22:12:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:12:35.059434
+2025-04-23 22:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:22:33.804858
+2025-04-23 22:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:22:34.718463
+2025-04-23 22:22:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:22:35.058678
+2025-04-23 22:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:32:33.794183
+2025-04-23 22:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:32:34.715342
+2025-04-23 22:32:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:32:35.070307
+2025-04-23 22:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:42:33.802870
+2025-04-23 22:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:42:34.713959
+2025-04-23 22:42:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:42:35.068634
+2025-04-23 22:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:52:33.799620
+2025-04-23 22:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:52:34.722970
+2025-04-23 22:52:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 22:52:35.063408
+2025-04-23 23:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:02:33.807350
+2025-04-23 23:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:02:34.715668
+2025-04-23 23:02:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:02:35.067161
+2025-04-23 23:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:12:33.803053
+2025-04-23 23:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:12:34.726797
+2025-04-23 23:12:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:12:35.067409
+2025-04-23 23:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:22:33.796047
+2025-04-23 23:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:22:34.718345
+2025-04-23 23:22:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:22:35.072246
+2025-04-23 23:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:32:33.806549
+2025-04-23 23:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:32:34.730380
+2025-04-23 23:32:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:32:35.069282
+2025-04-23 23:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:42:33.802634
+2025-04-23 23:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:42:34.730361
+2025-04-23 23:42:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:42:35.069000
+2025-04-23 23:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:52:33.802518
+2025-04-23 23:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:52:34.729663
+2025-04-23 23:52:35 INFO weather.py:349: Fetched new weather data at 2025-04-23 23:52:35.066266
+2025-04-24 00:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:02:33.803973
+2025-04-24 00:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:02:34.722272
+2025-04-24 00:02:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:02:35.060303
+2025-04-24 00:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:12:33.805133
+2025-04-24 00:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:12:34.729559
+2025-04-24 00:12:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:12:35.067005
+2025-04-24 00:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:22:33.805357
+2025-04-24 00:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:22:34.727567
+2025-04-24 00:22:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:22:35.065455
+2025-04-24 00:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:32:33.805864
+2025-04-24 00:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:32:34.718492
+2025-04-24 00:32:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:32:35.071347
+2025-04-24 00:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:42:33.804373
+2025-04-24 00:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:42:34.715966
+2025-04-24 00:42:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:42:35.071578
+2025-04-24 00:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:52:33.793392
+2025-04-24 00:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:52:34.716677
+2025-04-24 00:52:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 00:52:35.070376
+2025-04-24 01:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:02:33.802732
+2025-04-24 01:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:02:34.726440
+2025-04-24 01:02:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:02:35.064600
+2025-04-24 01:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:12:33.808326
+2025-04-24 01:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:12:34.714525
+2025-04-24 01:12:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:12:35.068360
+2025-04-24 01:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:22:33.822838
+2025-04-24 01:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:22:34.715859
+2025-04-24 01:22:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:22:35.068524
+2025-04-24 01:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:32:33.821542
+2025-04-24 01:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:32:34.715676
+2025-04-24 01:32:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:32:35.069180
+2025-04-24 01:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:42:33.809381
+2025-04-24 01:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:42:34.717408
+2025-04-24 01:42:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:42:35.057041
+2025-04-24 01:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:52:33.807005
+2025-04-24 01:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:52:34.714650
+2025-04-24 01:52:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 01:52:35.066749
+2025-04-24 02:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:02:33.809548
+2025-04-24 02:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:02:34.721131
+2025-04-24 02:02:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:02:35.057268
+2025-04-24 02:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:12:33.807608
+2025-04-24 02:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:12:34.720274
+2025-04-24 02:12:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:12:35.056128
+2025-04-24 02:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:22:33.803780
+2025-04-24 02:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:22:34.698927
+2025-04-24 02:22:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:22:35.048774
+2025-04-24 02:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:32:33.783244
+2025-04-24 02:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:32:34.692408
+2025-04-24 02:32:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:32:35.032334
+2025-04-24 02:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:42:33.763232
+2025-04-24 02:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:42:34.667133
+2025-04-24 02:42:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:42:35.005867
+2025-04-24 02:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:52:33.743315
+2025-04-24 02:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:52:34.648229
+2025-04-24 02:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 02:52:34.986751
+2025-04-24 03:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:02:33.735829
+2025-04-24 03:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:02:34.640829
+2025-04-24 03:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:02:34.980036
+2025-04-24 03:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:12:33.707724
+2025-04-24 03:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:12:34.620270
+2025-04-24 03:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:12:34.957984
+2025-04-24 03:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:22:33.698960
+2025-04-24 03:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:22:34.603011
+2025-04-24 03:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:22:34.955174
+2025-04-24 03:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:32:33.687928
+2025-04-24 03:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:32:34.594754
+2025-04-24 03:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:32:34.932451
+2025-04-24 03:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:42:33.675316
+2025-04-24 03:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:42:34.576634
+2025-04-24 03:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:42:34.917856
+2025-04-24 03:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:52:33.659179
+2025-04-24 03:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:52:34.572504
+2025-04-24 03:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 03:52:34.915023
+2025-04-24 04:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:02:33.654522
+2025-04-24 04:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:02:34.563703
+2025-04-24 04:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:02:34.904492
+2025-04-24 04:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:12:33.640531
+2025-04-24 04:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:12:34.549851
+2025-04-24 04:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:12:34.887446
+2025-04-24 04:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:22:33.639059
+2025-04-24 04:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:22:34.548803
+2025-04-24 04:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:22:34.888541
+2025-04-24 04:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:32:33.627993
+2025-04-24 04:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:32:34.555780
+2025-04-24 04:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:32:34.877312
+2025-04-24 04:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:42:33.624058
+2025-04-24 04:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:42:34.534189
+2025-04-24 04:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:42:34.871075
+2025-04-24 04:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:52:33.613257
+2025-04-24 04:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:52:34.537989
+2025-04-24 04:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 04:52:34.863969
+2025-04-24 05:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:02:33.604188
+2025-04-24 05:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:02:34.529925
+2025-04-24 05:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:02:34.853040
+2025-04-24 05:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:12:33.602649
+2025-04-24 05:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:12:34.522124
+2025-04-24 05:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:12:34.843411
+2025-04-24 05:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:22:33.593421
+2025-04-24 05:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:22:34.518530
+2025-04-24 05:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:22:34.839126
+2025-04-24 05:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:32:33.591004
+2025-04-24 05:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:32:34.511244
+2025-04-24 05:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:32:34.834973
+2025-04-24 05:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:42:33.576659
+2025-04-24 05:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:42:34.497940
+2025-04-24 05:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:42:34.834534
+2025-04-24 05:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:52:33.579396
+2025-04-24 05:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:52:34.491888
+2025-04-24 05:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 05:52:34.829301
+2025-04-24 06:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:02:33.571950
+2025-04-24 06:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:02:34.495641
+2025-04-24 06:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:02:34.819098
+2025-04-24 06:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:12:33.560683
+2025-04-24 06:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:12:34.486089
+2025-04-24 06:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:12:34.809194
+2025-04-24 06:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:22:33.556036
+2025-04-24 06:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:22:34.480574
+2025-04-24 06:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:22:34.818815
+2025-04-24 06:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:32:33.563298
+2025-04-24 06:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:32:34.473171
+2025-04-24 06:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:32:34.812462
+2025-04-24 06:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:42:33.559248
+2025-04-24 06:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:42:34.481899
+2025-04-24 06:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:42:34.804901
+2025-04-24 06:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:52:33.553896
+2025-04-24 06:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:52:34.479319
+2025-04-24 06:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 06:52:34.801370
+2025-04-24 07:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:02:33.542732
+2025-04-24 07:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:02:34.473164
+2025-04-24 07:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:02:34.796595
+2025-04-24 07:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:12:33.539278
+2025-04-24 07:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:12:34.466723
+2025-04-24 07:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:12:34.788661
+2025-04-24 07:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:22:33.535833
+2025-04-24 07:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:22:34.464487
+2025-04-24 07:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:22:34.787496
+2025-04-24 07:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:32:33.539076
+2025-04-24 07:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:32:34.467006
+2025-04-24 07:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:32:34.791264
+2025-04-24 07:42:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:42:33.542099
+2025-04-24 07:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:42:34.464289
+2025-04-24 07:42:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:42:34.787741
+2025-04-24 07:52:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:52:33.535768
+2025-04-24 07:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:52:34.463500
+2025-04-24 07:52:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 07:52:34.786918
+2025-04-24 08:02:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:02:33.528589
+2025-04-24 08:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:02:34.469396
+2025-04-24 08:02:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:02:34.778459
+2025-04-24 08:12:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:12:33.519854
+2025-04-24 08:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:12:34.460197
+2025-04-24 08:12:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:12:34.782748
+2025-04-24 08:22:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:22:33.528977
+2025-04-24 08:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:22:34.459862
+2025-04-24 08:22:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:22:34.768205
+2025-04-24 08:32:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:32:33.516563
+2025-04-24 08:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:32:34.461031
+2025-04-24 08:32:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:32:34.768911
+2025-04-24 08:36:28 INFO controller.py:12: Reloading Application because of screen update...
+2025-04-24 08:36:28 INFO bar.py:99: Screen geometry changed. Updating position for bar (status-bar_DELL P2422H (2)_d0be85b2)
+2025-04-24 08:36:29 INFO controller.py:12: Reloading Application because of screen update...
+2025-04-24 08:36:30 INFO log.py:21: Yasb v1.7.0
+2025-04-24 08:36:30 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:36:30.618047
+2025-04-24 08:36:30 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 08:36:30 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 08:36:31 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:36:31.974278
+2025-04-24 08:36:32 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:36:32.187100
+2025-04-24 08:36:32 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 08:36:32 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 08:36:32 DEBUG _windows.py:192: Thread started
+2025-04-24 08:36:32 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 08:46:30 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:46:30.618834
+2025-04-24 08:46:31 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:46:31.969554
+2025-04-24 08:46:32 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:46:32.186293
+2025-04-24 08:56:30 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:56:30.617926
+2025-04-24 08:56:31 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:56:31.970266
+2025-04-24 08:56:32 INFO weather.py:349: Fetched new weather data at 2025-04-24 08:56:32.186334
+2025-04-24 09:04:02 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 09:04:02 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 09:04:02 DEBUG _windows.py:201: Exiting thread
+2025-04-24 09:04:02 DEBUG _windows.py:75: Closing
+2025-04-24 09:04:03 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:04:03 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:04:03.232235
+2025-04-24 09:04:03 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:04:03 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:04:03 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:04:03.993063
+2025-04-24 09:04:04 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:04:04 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:04:04.206115
+2025-04-24 09:04:04 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:04:04 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:04:04 DEBUG _windows.py:192: Thread started
+2025-04-24 09:05:11 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 09:05:11 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 09:05:11 DEBUG _windows.py:201: Exiting thread
+2025-04-24 09:05:11 DEBUG _windows.py:75: Closing
+2025-04-24 09:05:11 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:05:11 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 09:05:34 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:05:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:05:34.882763
+2025-04-24 09:05:34 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:05:34 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:05:35 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:05:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:05:35.523417
+2025-04-24 09:05:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:05:35.946495
+2025-04-24 09:05:36 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:05:36 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:05:36 DEBUG _windows.py:192: Thread started
+2025-04-24 09:05:57 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 09:05:57 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 09:05:57 DEBUG _windows.py:201: Exiting thread
+2025-04-24 09:05:57 DEBUG _windows.py:75: Closing
+2025-04-24 09:05:57 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:05:57 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 09:06:10 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:06:10 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:06:10.665006
+2025-04-24 09:06:10 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:06:10 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:06:11 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:06:11 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:06:11.309104
+2025-04-24 09:06:11 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:06:11.726496
+2025-04-24 09:06:11 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:06:11 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:06:11 DEBUG _windows.py:192: Thread started
+2025-04-24 09:16:10 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:16:10.667754
+2025-04-24 09:16:11 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:16:11.319255
+2025-04-24 09:16:11 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:16:11.719099
+2025-04-24 09:16:12 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:16:12 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 09:16:16 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:16:16 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:16:16.467139
+2025-04-24 09:16:16 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:16:16 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:16:16 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:16:17 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:16:17.106782
+2025-04-24 09:16:17 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:16:17.557055
+2025-04-24 09:16:17 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:16:17 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:16:17 DEBUG _windows.py:192: Thread started
+2025-04-24 09:26:16 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:26:16.458853
+2025-04-24 09:26:17 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:26:17.105711
+2025-04-24 09:26:17 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:26:17.553699
+2025-04-24 09:28:32 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 09:28:32 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 09:28:32 DEBUG _windows.py:201: Exiting thread
+2025-04-24 09:28:32 DEBUG _windows.py:75: Closing
+2025-04-24 09:28:32 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:28:32 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:28:32.914809
+2025-04-24 09:28:32 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:28:32 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:28:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:28:33.586477
+2025-04-24 09:28:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:28:33.787218
+2025-04-24 09:28:33 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:28:33 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:28:33 DEBUG _windows.py:192: Thread started
+2025-04-24 09:28:33 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:37:19 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 09:37:19 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 09:37:19 DEBUG _windows.py:201: Exiting thread
+2025-04-24 09:37:19 DEBUG _windows.py:75: Closing
+2025-04-24 09:37:19 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:37:19 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 09:40:10 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:40:10 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:40:10.989670
+2025-04-24 09:40:11 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:40:11 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:40:11 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:40:11.641653
+2025-04-24 09:40:11 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:40:12 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:40:12.042087
+2025-04-24 09:40:12 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:40:12 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:40:12 DEBUG _windows.py:192: Thread started
+2025-04-24 09:41:37 INFO tray.py:180: Created shortcut at C:\Users\Saberporto196\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\yasb.lnk
+2025-04-24 09:45:18 INFO controller.py:27: Exiting Application from CLI...
+2025-04-24 09:45:18 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 09:45:18 DEBUG _windows.py:201: Exiting thread
+2025-04-24 09:45:18 DEBUG _windows.py:75: Closing
+2025-04-24 09:45:20 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:45:20 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:45:20 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:45:20.750176
+2025-04-24 09:45:20 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:45:20 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:45:21 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:45:21 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:45:21 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:45:21.597225
+2025-04-24 09:45:22 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:45:22 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:45:22.163708
+2025-04-24 09:45:22 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:45:22 INFO event_listener.py:53: Created named pipe yasb-75654b91-20e8-11f0-bbf2-5cf3708d99f0
+2025-04-24 09:45:22 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:45:22 DEBUG _windows.py:192: Thread started
+2025-04-24 09:45:22 WARNING weather.py:395: Could not load icon http://cdn.weatherapi.com/weather/64x64/day/119.png: <urlopen error timed out>
+2025-04-24 09:46:20 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:46:21 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:46:22 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:46:33 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 09:46:33 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 09:46:33 DEBUG _windows.py:201: Exiting thread
+2025-04-24 09:46:33 DEBUG _windows.py:75: Closing
+2025-04-24 09:46:33 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:46:33 INFO main.py:49: Debug mode enabled.
+2025-04-24 09:46:33 INFO cli_server.py:47: CLI server started v1.0.9
+2025-04-24 09:46:33 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:46:34 INFO github.py:345: Check for GitHub notifications at 2025-04-24 09:46:34.036942
+2025-04-24 09:46:34 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:46:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:46:34.471650
+2025-04-24 09:46:34 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:46:34 INFO app_bar.py:105: Bar Created on Screen: DELL P2422H (1) [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: False, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-04-24 09:46:34 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:46:34 INFO github.py:345: Check for GitHub notifications at 2025-04-24 09:46:34.883998
+2025-04-24 09:46:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:46:35.142019
+2025-04-24 09:46:35 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:46:35 INFO app_bar.py:105: Bar Created on Screen: DELL P2422H (2) [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: False, Screen Geometry: X: -1080, Y: -465, Screen Width: 1080, Screen Height: 1920]
+2025-04-24 09:46:35 INFO github.py:345: Check for GitHub notifications at 2025-04-24 09:46:35.266734
+2025-04-24 09:46:35 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:46:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:46:35.632672
+2025-04-24 09:46:35 INFO app_bar.py:105: Bar Created on Screen: DELL P2422H (3) [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: False, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-04-24 09:46:35 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:46:35 INFO event_listener.py:53: Created named pipe yasb-a137984a-20e8-11f0-801f-5cf3708d99f0
+2025-04-24 09:46:35 INFO event_listener.py:108: Waiting for Komorebi to subscribe to named pipe yasb-a137984a-20e8-11f0-801f-5cf3708d99f0
+2025-04-24 09:46:35 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:46:35 DEBUG _windows.py:192: Thread started
+2025-04-24 09:46:36 WARNING event_listener.py:116: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2025-04-24 09:47:05 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+widgets:
+- glazewm_workspaces:
+  - null value not allowed
+
+2025-04-24 09:47:05 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+widgets:
+- glazewm_workspaces:
+  - null value not allowed
+
+2025-04-24 09:47:05 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+widgets:
+- glazewm_workspaces:
+  - null value not allowed
+
+2025-04-24 09:47:36 INFO github.py:345: Check for GitHub notifications at 2025-04-24 09:47:36.247376
+2025-04-24 09:47:36 INFO github.py:345: Check for GitHub notifications at 2025-04-24 09:47:36.247891
+2025-04-24 09:47:36 INFO github.py:345: Check for GitHub notifications at 2025-04-24 09:47:36.247891
+2025-04-24 09:47:36 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:47:36 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:47:36 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:47:47 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+widgets:
+- glazewm_workspaces:
+  - null value not allowed
+
+2025-04-24 09:47:47 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+widgets:
+- glazewm_workspaces:
+  - null value not allowed
+
+2025-04-24 09:48:57 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:48:57 INFO main.py:49: Debug mode enabled.
+2025-04-24 09:48:57 INFO cli_server.py:47: CLI server started v1.0.9
+2025-04-24 09:48:57 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:48:57 INFO github.py:345: Check for GitHub notifications at 2025-04-24 09:48:57.672876
+2025-04-24 09:48:57 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:48:57.940301
+2025-04-24 09:48:57 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:48:57 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:48:58 INFO app_bar.py:105: Bar Created on Screen: DELL P2422H (1) [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: False, Screen Geometry: X: 0, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-04-24 09:48:58 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:48:58 DEBUG client.py:84: Connecting to PyQt6.QtCore.QUrl('ws://localhost:6123')...
+2025-04-24 09:48:58 DEBUG client.py:97: WebSocket state changed: SocketState.ConnectingState
+2025-04-24 09:48:58 INFO github.py:345: Check for GitHub notifications at 2025-04-24 09:48:58.337590
+2025-04-24 09:48:58 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:48:58 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:48:58.878123
+2025-04-24 09:48:58 INFO app_bar.py:105: Bar Created on Screen: DELL P2422H (2) [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: False, Screen Geometry: X: -1080, Y: -465, Screen Width: 1080, Screen Height: 1920]
+2025-04-24 09:48:59 DEBUG client.py:84: Connecting to PyQt6.QtCore.QUrl('ws://localhost:6123')...
+2025-04-24 09:48:59 DEBUG client.py:97: WebSocket state changed: SocketState.ConnectingState
+2025-04-24 09:48:59 INFO github.py:345: Check for GitHub notifications at 2025-04-24 09:48:59.038299
+2025-04-24 09:48:59 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:48:59.353956
+2025-04-24 09:48:59 INFO app_bar.py:105: Bar Created on Screen: DELL P2422H (3) [Bar Height: 36px, DPI Scale: 1.0, Scale Screen: False, Screen Geometry: X: 1920, Y: 0, Screen Width: 1920, Screen Height: 1080]
+2025-04-24 09:48:59 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:48:59 DEBUG client.py:84: Connecting to PyQt6.QtCore.QUrl('ws://localhost:6123')...
+2025-04-24 09:48:59 DEBUG client.py:97: WebSocket state changed: SocketState.ConnectingState
+2025-04-24 09:48:59 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:48:59 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:48:59 DEBUG _windows.py:192: Thread started
+2025-04-24 09:49:01 DEBUG client.py:97: WebSocket state changed: SocketState.ConnectedState
+2025-04-24 09:49:01 DEBUG client.py:88: Connected to PyQt6.QtCore.QUrl('ws://localhost:6123')
+2025-04-24 09:49:01 DEBUG client.py:90: Sent initial message: sub -e workspace_activated workspace_deactivated workspace_updated focus_changed focused_container_moved
+2025-04-24 09:49:01 DEBUG client.py:90: Sent initial message: query monitors
+2025-04-24 09:49:01 DEBUG client.py:97: WebSocket state changed: SocketState.ConnectedState
+2025-04-24 09:49:01 DEBUG client.py:88: Connected to PyQt6.QtCore.QUrl('ws://localhost:6123')
+2025-04-24 09:49:01 DEBUG client.py:90: Sent initial message: sub -e workspace_activated workspace_deactivated workspace_updated focus_changed focused_container_moved
+2025-04-24 09:49:01 DEBUG client.py:90: Sent initial message: query monitors
+2025-04-24 09:49:01 DEBUG client.py:97: WebSocket state changed: SocketState.ConnectedState
+2025-04-24 09:49:01 DEBUG client.py:88: Connected to PyQt6.QtCore.QUrl('ws://localhost:6123')
+2025-04-24 09:49:01 DEBUG client.py:90: Sent initial message: sub -e workspace_activated workspace_deactivated workspace_updated focus_changed focused_container_moved
+2025-04-24 09:49:01 DEBUG client.py:90: Sent initial message: query monitors
+2025-04-24 09:50:00 INFO github.py:345: Check for GitHub notifications at 2025-04-24 09:50:00.936556
+2025-04-24 09:50:00 INFO github.py:345: Check for GitHub notifications at 2025-04-24 09:50:00.937574
+2025-04-24 09:50:00 INFO github.py:345: Check for GitHub notifications at 2025-04-24 09:50:00.938591
+2025-04-24 09:50:01 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:50:01 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:50:01 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:50:26 WARNING taskbar.py:397: No widget found under cursor.
+2025-04-24 09:50:28 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 09:50:28 DEBUG cli_server.py:40: CLI server stopped
+2025-04-24 09:50:28 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 09:50:28 DEBUG _windows.py:201: Exiting thread
+2025-04-24 09:50:28 DEBUG _windows.py:75: Closing
+2025-04-24 09:50:28 DEBUG client.py:97: WebSocket state changed: SocketState.ClosingState
+2025-04-24 09:50:28 DEBUG client.py:97: WebSocket state changed: SocketState.UnconnectedState
+2025-04-24 09:50:28 DEBUG client.py:97: WebSocket state changed: SocketState.ClosingState
+2025-04-24 09:50:28 DEBUG client.py:97: WebSocket state changed: SocketState.UnconnectedState
+2025-04-24 09:50:29 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:50:29 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:50:29 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:50:30 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:50:30 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:50:30.130573
+2025-04-24 09:50:30 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:50:30 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:50:30.776792
+2025-04-24 09:50:30 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:50:31 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:50:31 INFO weather.py:349: Fetched new weather data at 2025-04-24 09:50:31.217610
+2025-04-24 09:50:31 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:50:31 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:50:31 DEBUG _windows.py:192: Thread started
+2025-04-24 09:51:29 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:51:30 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:51:31 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:52:29 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:52:30 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:52:31 ERROR github.py:396: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-04-24 09:52:41 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 09:52:41 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 09:52:41 DEBUG _windows.py:201: Exiting thread
+2025-04-24 09:52:41 DEBUG _windows.py:75: Closing
+2025-04-24 09:52:42 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:52:42 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 09:54:10 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:54:10 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:54:11 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:54:11 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:54:12 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:54:12 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:54:12 DEBUG _windows.py:192: Thread started
+2025-04-24 09:54:40 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 09:54:40 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 09:54:40 DEBUG _windows.py:201: Exiting thread
+2025-04-24 09:54:40 DEBUG _windows.py:75: Closing
+2025-04-24 09:54:40 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:54:40 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:54:41 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:54:41 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:54:42 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:54:42 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:54:42 DEBUG _windows.py:192: Thread started
+2025-04-24 09:56:54 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:56:54 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:56:54 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:56:55 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:56:56 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:56:56 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:56:56 DEBUG _windows.py:192: Thread started
+2025-04-24 09:57:05 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 09:57:05 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 09:57:05 DEBUG _windows.py:201: Exiting thread
+2025-04-24 09:57:05 DEBUG _windows.py:75: Closing
+2025-04-24 09:57:05 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:57:05 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 09:57:35 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:57:35 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:57:35 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:57:36 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:57:36 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:57:37 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:57:37 DEBUG _windows.py:192: Thread started
+2025-04-24 09:58:17 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 09:58:17 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 09:58:17 DEBUG _windows.py:201: Exiting thread
+2025-04-24 09:58:17 DEBUG _windows.py:75: Closing
+2025-04-24 09:58:17 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:58:18 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:58:18 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:58:18 WARNING widget_builder.py:38: No widget config could be found for widget 'whkd
+2025-04-24 09:58:18 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:58:19 WARNING widget_builder.py:35: Ignoring construction of invalid widget 'whkd'
+2025-04-24 09:58:19 WARNING widget_builder.py:35: Ignoring construction of invalid widget 'whkd'
+2025-04-24 09:58:20 ERROR widget_builder.py:77: Failed to add undefined widget(s)  - The widget "whkd" is undefined.
+2025-04-24 09:58:34 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:58:34 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:58:34 DEBUG _windows.py:192: Thread started
+2025-04-24 09:59:09 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 09:59:09 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 09:59:09 DEBUG _windows.py:201: Exiting thread
+2025-04-24 09:59:09 DEBUG _windows.py:75: Closing
+2025-04-24 09:59:09 INFO log.py:21: Yasb v1.7.0
+2025-04-24 09:59:09 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 09:59:10 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 09:59:10 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 09:59:11 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 09:59:11 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 09:59:11 DEBUG _windows.py:192: Thread started
+2025-04-24 09:59:28 WARNING taskbar.py:397: No widget found under cursor.
+2025-04-24 09:59:28 WARNING taskbar.py:397: No widget found under cursor.
+2025-04-24 10:01:42 INFO log.py:21: Yasb v1.7.0
+2025-04-24 10:01:42 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 10:01:42 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 10:01:43 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 10:01:44 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 10:01:44 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 10:01:44 DEBUG _windows.py:192: Thread started
+2025-04-24 10:02:53 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 10:02:53 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 10:02:53 DEBUG _windows.py:201: Exiting thread
+2025-04-24 10:02:53 DEBUG _windows.py:75: Closing
+2025-04-24 10:02:53 INFO log.py:21: Yasb v1.7.0
+2025-04-24 10:02:53 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 10:02:54 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 10:02:54 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 10:02:55 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 10:02:55 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 10:02:55 DEBUG _windows.py:192: Thread started
+2025-04-24 10:03:11 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 10:03:11 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 10:03:11 DEBUG _windows.py:201: Exiting thread
+2025-04-24 10:03:11 DEBUG _windows.py:75: Closing
+2025-04-24 10:03:11 INFO log.py:21: Yasb v1.7.0
+2025-04-24 10:03:11 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 10:03:12 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 10:03:12 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 10:03:13 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 10:03:13 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 10:03:13 DEBUG _windows.py:192: Thread started
+2025-04-24 10:03:52 WARNING taskbar.py:397: No widget found under cursor.
+2025-04-24 10:03:52 WARNING taskbar.py:397: No widget found under cursor.
+2025-04-24 10:23:05 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 10:23:05 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 10:23:05 DEBUG _windows.py:201: Exiting thread
+2025-04-24 10:23:05 DEBUG _windows.py:75: Closing
+2025-04-24 10:23:05 INFO log.py:21: Yasb v1.7.0
+2025-04-24 10:23:05 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 10:23:06 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 10:23:06 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 10:23:07 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 10:23:07 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 10:23:07 DEBUG _windows.py:192: Thread started
+2025-04-24 10:23:15 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 10:23:15 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 10:23:15 DEBUG _windows.py:201: Exiting thread
+2025-04-24 10:23:15 DEBUG _windows.py:75: Closing
+2025-04-24 10:23:15 INFO log.py:21: Yasb v1.7.0
+2025-04-24 10:23:15 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 10:23:25 INFO log.py:21: Yasb v1.7.0
+2025-04-24 10:23:25 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 10:23:26 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 10:23:26 ERROR update_check.py:108: Error in winget worker: Command '['winget', 'upgrade']' returned non-zero exit status 2316632130.
+2025-04-24 10:23:27 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 10:23:27 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 10:23:27 DEBUG _windows.py:192: Thread started
+2025-04-24 10:25:15 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 10:25:15 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 10:25:15 DEBUG _windows.py:201: Exiting thread
+2025-04-24 10:25:15 DEBUG _windows.py:75: Closing
+2025-04-24 10:25:15 INFO log.py:21: Yasb v1.7.0
+2025-04-24 10:25:15 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 10:48:28 INFO log.py:21: Yasb v1.7.0
+2025-04-24 10:48:28 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 10:48:28 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 10:48:30 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 10:48:30 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 10:48:30 DEBUG _windows.py:192: Thread started
+2025-04-24 10:50:15 INFO controller.py:27: Exiting Application from CLI...
+2025-04-24 10:50:15 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 10:50:15 DEBUG _windows.py:201: Exiting thread
+2025-04-24 10:50:15 DEBUG _windows.py:75: Closing
+2025-04-24 10:50:15 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x000001E8FFEF0910>. Removing link to WinEvent.EventObjectHide.
+2025-04-24 10:50:15 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x000001E8FFEF0910>. Removing link to WinEvent.EventObjectDestroy.
+2025-04-24 10:50:15 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x000001E88016FF70>. Removing link to WinEvent.EventObjectDestroy.
+2025-04-24 10:50:15 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x000001E88016FF70>. Removing link to WinEvent.EventObjectHide.
+2025-04-24 10:50:15 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL foreground_change of ActiveWindowWidget object at 0x000001E8FFD05310>. Removing link to WinEvent.EventSystemForeground.
+2025-04-24 10:50:15 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL foreground_change of ActiveWindowWidget object at 0x000001E88016E530>. Removing link to WinEvent.EventSystemForeground.
+2025-04-24 10:50:15 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL foreground_change of ActiveWindowWidget object at 0x000001E8801CF750>. Removing link to WinEvent.EventSystemForeground.
+2025-04-24 10:50:15 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x000001E8801E5270>. Removing link to WinEvent.EventObjectDestroy.
+2025-04-24 10:50:15 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x000001E8FFEF0910>. Removing link to WinEvent.EventObjectFocus.
+2025-04-24 10:50:15 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x000001E8801E5270>. Removing link to WinEvent.EventObjectFocus.
+2025-04-24 10:50:16 INFO log.py:21: Yasb v1.7.0
+2025-04-24 10:50:16 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 10:50:16 INFO weather.py:349: Fetched new weather data at 2025-04-24 10:50:16.876365
+2025-04-24 10:50:17 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 10:50:17 INFO weather.py:349: Fetched new weather data at 2025-04-24 10:50:17.346546
+2025-04-24 10:50:17 INFO weather.py:349: Fetched new weather data at 2025-04-24 10:50:17.470348
+2025-04-24 10:50:17 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 10:50:17 INFO event_listener.py:53: Created named pipe yasb-87240c88-20f1-11f0-8d6d-5cf3708d99f0
+2025-04-24 10:50:17 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 10:50:17 DEBUG _windows.py:192: Thread started
+2025-04-24 10:50:18 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 10:50:18 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 10:51:34 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 10:51:35 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 10:51:35 DEBUG _windows.py:201: Exiting thread
+2025-04-24 10:51:35 DEBUG _windows.py:75: Closing
+2025-04-24 10:51:35 INFO log.py:21: Yasb v1.7.0
+2025-04-24 10:51:35 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 10:51:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 10:51:35.693191
+2025-04-24 10:51:35 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 10:51:36 INFO weather.py:349: Fetched new weather data at 2025-04-24 10:51:36.232455
+2025-04-24 10:51:36 INFO weather.py:349: Fetched new weather data at 2025-04-24 10:51:36.447762
+2025-04-24 10:51:36 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 10:51:36 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 10:51:36 DEBUG _windows.py:192: Thread started
+2025-04-24 10:51:37 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 10:51:37 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 10:52:04 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 10:52:04 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 10:52:04 DEBUG _windows.py:201: Exiting thread
+2025-04-24 10:52:04 DEBUG _windows.py:75: Closing
+2025-04-24 10:52:04 INFO log.py:21: Yasb v1.7.0
+2025-04-24 10:52:04 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 10:52:05 INFO weather.py:349: Fetched new weather data at 2025-04-24 10:52:05.076154
+2025-04-24 10:52:05 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 10:52:05 INFO weather.py:349: Fetched new weather data at 2025-04-24 10:52:05.574552
+2025-04-24 10:52:05 INFO weather.py:349: Fetched new weather data at 2025-04-24 10:52:05.790642
+2025-04-24 10:52:05 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 10:52:05 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 10:52:05 DEBUG _windows.py:192: Thread started
+2025-04-24 11:02:05 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:02:05.127993
+2025-04-24 11:02:05 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:02:05.574599
+2025-04-24 11:02:05 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:02:05.839496
+2025-04-24 11:07:31 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 11:07:31 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 11:07:31 DEBUG _windows.py:201: Exiting thread
+2025-04-24 11:07:31 DEBUG _windows.py:75: Closing
+2025-04-24 11:07:32 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:07:32 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 11:07:32 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:07:32.351054
+2025-04-24 11:07:32 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 11:07:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:07:33.022576
+2025-04-24 11:07:33 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:07:33.067695
+2025-04-24 11:07:33 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 11:07:33 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 11:07:33 DEBUG _windows.py:192: Thread started
+2025-04-24 11:08:10 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 11:08:10 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 11:08:10 DEBUG _windows.py:201: Exiting thread
+2025-04-24 11:08:10 DEBUG _windows.py:75: Closing
+2025-04-24 11:08:10 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:08:10 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 11:08:11 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:08:11.072898
+2025-04-24 11:08:11 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 11:08:11 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:08:11.716141
+2025-04-24 11:08:11 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:08:11.762546
+2025-04-24 11:08:11 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 11:08:11 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 11:08:11 DEBUG _windows.py:192: Thread started
+2025-04-24 11:08:30 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 11:08:30 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 11:08:30 DEBUG _windows.py:201: Exiting thread
+2025-04-24 11:08:30 DEBUG _windows.py:75: Closing
+2025-04-24 11:08:30 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:08:30 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 11:08:46 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:08:46 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 11:08:46 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:08:46.789784
+2025-04-24 11:08:46 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 11:08:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:08:47.229553
+2025-04-24 11:08:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:08:47.659757
+2025-04-24 11:08:47 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 11:08:47 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 11:08:47 DEBUG _windows.py:192: Thread started
+2025-04-24 11:12:30 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 11:12:30 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 11:12:30 DEBUG _windows.py:201: Exiting thread
+2025-04-24 11:12:30 DEBUG _windows.py:75: Closing
+2025-04-24 11:12:30 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:12:30 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 11:12:30 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:12:30.580751
+2025-04-24 11:12:30 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 11:12:31 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:12:31.189623
+2025-04-24 11:12:31 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:12:31.239864
+2025-04-24 11:12:31 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 11:12:31 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 11:12:31 DEBUG _windows.py:192: Thread started
+2025-04-24 11:13:03 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 11:13:03 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 11:13:03 DEBUG _windows.py:201: Exiting thread
+2025-04-24 11:13:03 DEBUG _windows.py:75: Closing
+2025-04-24 11:13:03 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:13:03 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 11:13:17 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:13:17 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 11:13:17 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:13:17.207808
+2025-04-24 11:13:17 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 11:13:17 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:13:17.644952
+2025-04-24 11:13:18 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:13:18.065496
+2025-04-24 11:13:18 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 11:13:18 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 11:13:18 DEBUG _windows.py:192: Thread started
+2025-04-24 11:15:14 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 11:15:14 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 11:15:14 DEBUG _windows.py:201: Exiting thread
+2025-04-24 11:15:14 DEBUG _windows.py:75: Closing
+2025-04-24 11:15:14 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:15:14 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 11:15:18 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:15:18 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 11:15:18 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:15:18.511619
+2025-04-24 11:15:18 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 11:15:18 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:15:18.962571
+2025-04-24 11:15:19 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:15:19.383459
+2025-04-24 11:15:19 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 11:15:19 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 11:15:19 DEBUG _windows.py:192: Thread started
+2025-04-24 11:25:18 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:25:18.917151
+2025-04-24 11:25:18 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:25:18.957198
+2025-04-24 11:25:19 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:25:19.458992
+2025-04-24 11:31:06 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 11:31:06 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 11:31:06 DEBUG _windows.py:201: Exiting thread
+2025-04-24 11:31:06 DEBUG _windows.py:75: Closing
+2025-04-24 11:31:06 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:31:06 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 11:31:06 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:31:06.810442
+2025-04-24 11:31:06 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 11:31:07 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:31:07.522311
+2025-04-24 11:31:07 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:31:07.713924
+2025-04-24 11:31:07 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 11:31:07 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 11:31:07 DEBUG _windows.py:192: Thread started
+2025-04-24 11:41:07 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:41:07.272271
+2025-04-24 11:41:07 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:41:07.520929
+2025-04-24 11:41:08 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:41:08.023140
+2025-04-24 11:44:50 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 11:44:50 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 11:44:50 DEBUG _windows.py:201: Exiting thread
+2025-04-24 11:44:50 DEBUG _windows.py:75: Closing
+2025-04-24 11:44:50 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:44:50 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 11:44:50 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:44:50.809964
+2025-04-24 11:44:50 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 11:44:51 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:44:51.563075
+2025-04-24 11:44:51 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:44:51.735477
+2025-04-24 11:44:51 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 11:44:51 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 11:44:51 DEBUG _windows.py:192: Thread started
+2025-04-24 11:54:42 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 11:54:42 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 11:54:42 DEBUG _windows.py:201: Exiting thread
+2025-04-24 11:54:42 DEBUG _windows.py:75: Closing
+2025-04-24 11:54:43 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:54:43 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:54:43.463189
+2025-04-24 11:54:43 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 11:54:43 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 11:54:44 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:54:44.371594
+2025-04-24 11:54:44 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:54:44.520826
+2025-04-24 11:54:44 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 11:54:44 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 11:54:44 DEBUG _windows.py:192: Thread started
+2025-04-24 11:54:59 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 11:54:59 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 11:54:59 DEBUG _windows.py:201: Exiting thread
+2025-04-24 11:54:59 DEBUG _windows.py:75: Closing
+2025-04-24 11:54:59 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:54:59 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 11:55:20 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:55:20 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:55:20.610243
+2025-04-24 11:55:20 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 11:55:20 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 11:55:21 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:55:21.146927
+2025-04-24 11:55:21 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:55:21.582532
+2025-04-24 11:55:21 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 11:55:21 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 11:55:21 DEBUG _windows.py:192: Thread started
+2025-04-24 11:59:20 INFO log.py:21: Yasb v1.7.0
+2025-04-24 11:59:20 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:59:20.152468
+2025-04-24 11:59:20 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 11:59:20 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 11:59:20 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:59:20.636977
+2025-04-24 11:59:21 INFO weather.py:349: Fetched new weather data at 2025-04-24 11:59:21.021922
+2025-04-24 11:59:21 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 11:59:21 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 11:59:21 DEBUG _windows.py:192: Thread started
+2025-04-24 11:59:21 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 11:59:21 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:01:40 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:01:40 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:01:40 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:01:40 DEBUG _windows.py:75: Closing
+2025-04-24 12:01:40 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:01:40 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:01:40.833681
+2025-04-24 12:01:40 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:01:41 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:01:41 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:01:41.534239
+2025-04-24 12:01:41 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:01:41.701563
+2025-04-24 12:01:41 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:01:41 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:01:41 DEBUG _windows.py:192: Thread started
+2025-04-24 12:01:56 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:01:56 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:01:56 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:01:56 DEBUG _windows.py:75: Closing
+2025-04-24 12:01:56 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:01:56 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:01:56.757801
+2025-04-24 12:01:56 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:01:56 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:01:57 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:01:57.465654
+2025-04-24 12:01:57 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:01:57.641559
+2025-04-24 12:01:57 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:01:57 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:01:57 DEBUG _windows.py:192: Thread started
+2025-04-24 12:02:06 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:02:06 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:02:06 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:02:06 DEBUG _windows.py:75: Closing
+2025-04-24 12:02:06 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:02:06 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:02:06.781088
+2025-04-24 12:02:06 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:02:07 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:02:07 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:02:07.469422
+2025-04-24 12:02:07 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:02:07.673708
+2025-04-24 12:02:07 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:02:07 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:02:07 DEBUG _windows.py:192: Thread started
+2025-04-24 12:02:08 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:02:08 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:02:20 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:02:20 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:02:20 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:02:20 DEBUG _windows.py:75: Closing
+2025-04-24 12:02:20 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:02:20 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:02:20.675759
+2025-04-24 12:02:20 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:02:20 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:02:21 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:02:21.370170
+2025-04-24 12:02:21 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:02:21.542396
+2025-04-24 12:02:21 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:02:21 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:02:21 DEBUG _windows.py:192: Thread started
+2025-04-24 12:02:30 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:02:30 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:02:30 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:02:30 DEBUG _windows.py:75: Closing
+2025-04-24 12:02:31 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:02:31 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 12:02:46 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:02:46 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:02:46.728420
+2025-04-24 12:02:46 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:02:46 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:02:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:02:47.287943
+2025-04-24 12:02:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:02:47.740530
+2025-04-24 12:02:47 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:02:47 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:02:47 DEBUG _windows.py:192: Thread started
+2025-04-24 12:02:56 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:02:56 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:02:56 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:02:56 DEBUG _windows.py:75: Closing
+2025-04-24 12:02:57 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:02:57 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 12:03:03 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:03:03 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:03:03.559290
+2025-04-24 12:03:03 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:03:03 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:03:04 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:03:04.077335
+2025-04-24 12:03:04 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:03:04.475828
+2025-04-24 12:03:04 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:03:04 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:03:04 DEBUG _windows.py:192: Thread started
+2025-04-24 12:04:12 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:04:12 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:04:12 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:04:12 DEBUG _windows.py:75: Closing
+2025-04-24 12:04:12 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:04:12 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:04:12.617774
+2025-04-24 12:04:12 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:04:12 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:04:13 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:04:13.348097
+2025-04-24 12:04:13 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:04:13.518020
+2025-04-24 12:04:13 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:04:13 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:04:13 DEBUG _windows.py:192: Thread started
+2025-04-24 12:05:12 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:05:12 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:05:12 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:05:12 DEBUG _windows.py:75: Closing
+2025-04-24 12:05:12 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:05:12 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 12:05:22 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:05:22 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:22.647135
+2025-04-24 12:05:22 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:05:22 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:05:23 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:23.156192
+2025-04-24 12:05:23 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:23.563632
+2025-04-24 12:05:23 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:05:23 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:05:23 DEBUG _windows.py:192: Thread started
+2025-04-24 12:05:29 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:05:29 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:05:29 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:05:29 DEBUG _windows.py:75: Closing
+2025-04-24 12:05:29 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:05:29 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:29.659297
+2025-04-24 12:05:29 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:05:29 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:05:30 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:30.441116
+2025-04-24 12:05:30 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:30.598083
+2025-04-24 12:05:30 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:05:30 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:05:30 DEBUG _windows.py:192: Thread started
+2025-04-24 12:05:38 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:05:38 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:05:38 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:05:38 DEBUG _windows.py:75: Closing
+2025-04-24 12:05:38 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:05:38 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 12:05:44 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:05:45 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:45.076955
+2025-04-24 12:05:45 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:05:45 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:05:45 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:45.576075
+2025-04-24 12:05:46 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:46.008622
+2025-04-24 12:05:46 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:05:46 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:05:46 DEBUG _windows.py:192: Thread started
+2025-04-24 12:05:46 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:05:50 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:05:50 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:05:50 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:05:50 DEBUG _windows.py:75: Closing
+2025-04-24 12:05:50 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:05:51 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:51.109985
+2025-04-24 12:05:51 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:05:51 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:05:51 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:51.849184
+2025-04-24 12:05:52 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:52.025670
+2025-04-24 12:05:52 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:05:52 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:05:52 DEBUG _windows.py:192: Thread started
+2025-04-24 12:05:57 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:05:57 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:05:57 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:05:57 DEBUG _windows.py:75: Closing
+2025-04-24 12:05:57 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:05:58 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:58.059428
+2025-04-24 12:05:58 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:05:58 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:05:58 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:58.775096
+2025-04-24 12:05:58 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:05:58.954759
+2025-04-24 12:05:59 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:05:59 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:05:59 DEBUG _windows.py:192: Thread started
+2025-04-24 12:05:59 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:05:59 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:11:59 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:11:59 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:11:59 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:11:59 DEBUG _windows.py:75: Closing
+2025-04-24 12:11:59 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:11:59 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:11:59.680920
+2025-04-24 12:11:59 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:11:59 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:12:00 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:12:00.543312
+2025-04-24 12:12:00 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:12:00.721513
+2025-04-24 12:12:00 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:12:00 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:12:00 DEBUG _windows.py:192: Thread started
+2025-04-24 12:12:01 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:12:01 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:13:14 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:13:14 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:13:14 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:13:14 DEBUG _windows.py:75: Closing
+2025-04-24 12:13:15 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:13:15 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:13:15.341868
+2025-04-24 12:13:15 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:13:15 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:13:16 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:13:16.168057
+2025-04-24 12:13:16 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:13:16.346740
+2025-04-24 12:13:16 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:13:16 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:13:16 DEBUG _windows.py:192: Thread started
+2025-04-24 12:14:32 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+- active_window:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  apps:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  battery:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  brightness:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  clock:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_tiling_direction:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_workspaces:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  media:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  power_menu:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  systray:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  taskbar:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  volume:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wallpapers:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  weather:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wifi:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+
+2025-04-24 12:14:55 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+- active_window:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  apps:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  battery:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  brightness:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  clock:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_tiling_direction:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_workspaces:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  media:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  power_menu:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  systray:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  taskbar:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  volume:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wallpapers:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  weather:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wifi:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+
+2025-04-24 12:14:55 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+- active_window:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  apps:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  battery:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  brightness:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  clock:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_tiling_direction:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_workspaces:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  media:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  power_menu:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  systray:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  taskbar:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  volume:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wallpapers:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  weather:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wifi:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+
+2025-04-24 12:15:47 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+- active_window:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  apps:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  battery:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  brightness:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  clock:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_tiling_direction:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_workspaces:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  layouts:
+  - center:
+    - unknown field
+    left:
+    - unknown field
+    right:
+    - unknown field
+  media:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  power_menu:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  systray:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  taskbar:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  volume:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wallpapers:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  weather:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wifi:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+
+2025-04-24 12:15:47 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+- active_window:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  apps:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  battery:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  brightness:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  clock:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_tiling_direction:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_workspaces:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  layouts:
+  - center:
+    - unknown field
+    left:
+    - unknown field
+    right:
+    - unknown field
+  media:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  power_menu:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  systray:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  taskbar:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  volume:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wallpapers:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  weather:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wifi:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+
+2025-04-24 12:15:47 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+- active_window:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  apps:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  battery:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  brightness:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  clock:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_tiling_direction:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_workspaces:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  layouts:
+  - center:
+    - unknown field
+    left:
+    - unknown field
+    right:
+    - unknown field
+  media:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  power_menu:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  systray:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  taskbar:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  volume:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wallpapers:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  weather:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wifi:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+
+2025-04-24 12:15:58 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+- active_window:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  apps:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  battery:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  brightness:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  clock:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_tiling_direction:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_workspaces:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  media:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  power_menu:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  systray:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  taskbar:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  volume:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wallpapers:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  weather:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wifi:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+
+2025-04-24 12:15:58 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+- active_window:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  apps:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  battery:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  brightness:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  clock:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_tiling_direction:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_workspaces:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  media:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  power_menu:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  systray:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  taskbar:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  volume:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wallpapers:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  weather:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wifi:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+
+2025-04-24 12:15:58 ERROR config.py:109: The config file 'C:\Users\Saberporto196\.config\yasb\config.yaml' contains validation errors. Please fix:
+bars:
+- active_window:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  apps:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  battery:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  brightness:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  clock:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_tiling_direction:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  glazewm_workspaces:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  media:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  power_menu:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  systray:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  taskbar:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  volume:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wallpapers:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  weather:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+  wifi:
+  - options:
+    - unknown field
+    type:
+    - unknown field
+
+2025-04-24 12:17:59 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:17:59 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:17:59 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:17:59 DEBUG _windows.py:75: Closing
+2025-04-24 12:17:59 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:17:59 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 12:18:34 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:18:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:18:34.125386
+2025-04-24 12:18:34 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:18:34 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:18:34 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:18:34.645095
+2025-04-24 12:18:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:18:35.068519
+2025-04-24 12:18:35 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:18:35 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:18:35 DEBUG _windows.py:192: Thread started
+2025-04-24 12:18:46 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:18:46 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:18:46 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:18:46 DEBUG _windows.py:75: Closing
+2025-04-24 12:18:46 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:18:46 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 12:19:12 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:19:12 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:19:12.381121
+2025-04-24 12:19:12 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:19:12 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:19:12 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:19:12.886138
+2025-04-24 12:19:13 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:19:13.311035
+2025-04-24 12:19:13 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:19:13 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:19:13 DEBUG _windows.py:192: Thread started
+2025-04-24 12:19:25 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:19:25 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:19:25 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:19:25 DEBUG _windows.py:75: Closing
+2025-04-24 12:19:25 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:19:25 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 12:19:29 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:19:29 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:19:29.278600
+2025-04-24 12:19:29 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:19:29 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:19:29 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:19:29.850773
+2025-04-24 12:19:30 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:19:30.381510
+2025-04-24 12:19:30 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:19:30 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:19:30 DEBUG _windows.py:192: Thread started
+2025-04-24 12:20:47 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:20:47 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:20:47 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:20:47 DEBUG _windows.py:75: Closing
+2025-04-24 12:20:47 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:20:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:20:47.559232
+2025-04-24 12:20:47 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:20:47 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:20:48 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:20:48.307379
+2025-04-24 12:20:48 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:20:48.342584
+2025-04-24 12:20:48 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:20:48 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:20:48 DEBUG _windows.py:192: Thread started
+2025-04-24 12:20:49 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:30:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:30:47.569821
+2025-04-24 12:30:48 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:30:48.294505
+2025-04-24 12:30:48 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:30:48.341320
+2025-04-24 12:32:53 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:32:53 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:32:53.653873
+2025-04-24 12:32:53 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:32:53 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:32:54 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:32:54.055106
+2025-04-24 12:32:54 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:32:54.190276
+2025-04-24 12:32:54 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:32:54 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:32:54 DEBUG _windows.py:192: Thread started
+2025-04-24 12:32:54 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:32:54 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:42:35 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:42:35 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:42:35 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:42:35 DEBUG _windows.py:75: Closing
+2025-04-24 12:42:35 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:42:35 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:42:35.945243
+2025-04-24 12:42:35 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:42:36 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:42:36 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:42:36.474737
+2025-04-24 12:42:36 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:42:36.648815
+2025-04-24 12:42:36 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:42:36 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:42:36 DEBUG _windows.py:192: Thread started
+2025-04-24 12:42:37 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:42:37 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:43:36 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:43:36 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:43:36 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:43:36 DEBUG _windows.py:75: Closing
+2025-04-24 12:43:36 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:43:37 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:43:37.690115
+2025-04-24 12:43:37 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:43:37 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:43:38 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:43:38.428384
+2025-04-24 12:43:38 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:43:38.900514
+2025-04-24 12:43:39 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:43:39 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:43:39 DEBUG _windows.py:192: Thread started
+2025-04-24 12:43:40 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:43:40 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:43:49 WARNING taskbar.py:397: No widget found under cursor.
+2025-04-24 12:45:14 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:45:14 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:45:14 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:45:14 DEBUG _windows.py:75: Closing
+2025-04-24 12:45:14 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:45:15 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:45:15.039151
+2025-04-24 12:45:15 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:45:15 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:45:15 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:45:15.591010
+2025-04-24 12:45:15 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:45:15.741517
+2025-04-24 12:45:15 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:45:16 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:45:16 DEBUG _windows.py:192: Thread started
+2025-04-24 12:45:16 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:45:16 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:54:58 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 12:54:58 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:54:58 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:54:58 DEBUG _windows.py:75: Closing
+2025-04-24 12:54:59 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:54:59 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:54:59.357002
+2025-04-24 12:54:59 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:54:59 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:54:59 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:54:59.699370
+2025-04-24 12:54:59 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:54:59.860775
+2025-04-24 12:55:00 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:55:00 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:55:00 DEBUG _windows.py:192: Thread started
+2025-04-24 12:55:00 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:55:00 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:58:06 INFO controller.py:12: Reloading Application from CLI...
+2025-04-24 12:58:06 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 12:58:06 DEBUG _windows.py:201: Exiting thread
+2025-04-24 12:58:06 DEBUG _windows.py:75: Closing
+2025-04-24 12:58:06 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000002FAE50709B0>. Removing link to WinEvent.EventObjectNameChange.
+2025-04-24 12:58:06 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000002FAE3DEBC50>. Removing link to WinEvent.EventObjectNameChange.
+2025-04-24 12:58:06 INFO log.py:21: Yasb v1.7.0
+2025-04-24 12:58:06 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:58:06.907486
+2025-04-24 12:58:06 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 12:58:06 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 12:58:07 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:58:07.283773
+2025-04-24 12:58:07 INFO weather.py:349: Fetched new weather data at 2025-04-24 12:58:07.481785
+2025-04-24 12:58:07 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 12:58:07 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 12:58:07 DEBUG _windows.py:192: Thread started
+2025-04-24 12:58:08 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 12:58:08 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 13:03:25 INFO controller.py:12: Reloading Application because of config update...
+2025-04-24 13:03:25 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 13:03:25 DEBUG _windows.py:201: Exiting thread
+2025-04-24 13:03:25 DEBUG _windows.py:75: Closing
+2025-04-24 13:03:25 INFO log.py:21: Yasb v1.7.0
+2025-04-24 13:03:25 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:03:25.792396
+2025-04-24 13:03:25 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 13:03:25 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 13:03:26 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:03:26.561827
+2025-04-24 13:03:26 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:03:26.711063
+2025-04-24 13:03:26 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 13:03:26 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 13:03:26 DEBUG _windows.py:192: Thread started
+2025-04-24 13:03:27 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 13:03:27 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 13:12:39 INFO controller.py:12: Reloading Application from CLI...
+2025-04-24 13:12:39 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 13:12:39 DEBUG _windows.py:201: Exiting thread
+2025-04-24 13:12:39 DEBUG _windows.py:75: Closing
+2025-04-24 13:12:39 INFO log.py:21: Yasb v1.7.0
+2025-04-24 13:12:39 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:12:39.636992
+2025-04-24 13:12:39 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 13:12:39 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 13:12:40 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:12:40.215934
+2025-04-24 13:12:40 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:12:40.396453
+2025-04-24 13:12:40 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 13:12:40 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 13:12:40 DEBUG _windows.py:192: Thread started
+2025-04-24 13:12:41 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 13:12:41 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 13:22:39 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:22:39.645521
+2025-04-24 13:22:40 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:22:40.216481
+2025-04-24 13:22:40 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:22:40.403562
+2025-04-24 13:32:39 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:32:39.638686
+2025-04-24 13:32:40 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:32:40.219547
+2025-04-24 13:32:40 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:32:40.404313
+2025-04-24 13:42:39 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:42:39.639933
+2025-04-24 13:42:40 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:42:40.208544
+2025-04-24 13:42:40 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:42:40.718872
+2025-04-24 13:42:57 INFO controller.py:12: Reloading Application from CLI...
+2025-04-24 13:42:57 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 13:42:57 DEBUG _windows.py:201: Exiting thread
+2025-04-24 13:42:57 DEBUG _windows.py:75: Closing
+2025-04-24 13:42:57 INFO log.py:21: Yasb v1.7.0
+2025-04-24 13:42:57 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:42:57.744454
+2025-04-24 13:42:57 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 13:42:57 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 13:42:58 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:42:58.475253
+2025-04-24 13:42:58 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:42:58.615613
+2025-04-24 13:42:58 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 13:42:58 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 13:42:58 DEBUG _windows.py:192: Thread started
+2025-04-24 13:51:02 INFO controller.py:12: Reloading Application from CLI...
+2025-04-24 13:51:02 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 13:51:02 DEBUG _windows.py:201: Exiting thread
+2025-04-24 13:51:02 DEBUG _windows.py:75: Closing
+2025-04-24 13:51:02 INFO log.py:21: Yasb v1.7.0
+2025-04-24 13:51:02 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:51:02.956912
+2025-04-24 13:51:02 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 13:51:03 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 13:51:03 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:51:03.934580
+2025-04-24 13:51:04 INFO weather.py:349: Fetched new weather data at 2025-04-24 13:51:04.083543
+2025-04-24 13:51:04 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 13:51:04 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 13:51:04 DEBUG _windows.py:192: Thread started
+2025-04-24 14:01:03 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:01:03.683846
+2025-04-24 14:03:41 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:03:41.109355
+2025-04-24 14:03:41 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:03:41.117765
+2025-04-24 14:11:26 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:11:26.836674
+2025-04-24 14:11:26 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:11:26.837677
+2025-04-24 14:11:26 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:11:26.837677
+2025-04-24 14:21:03 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:21:03.468656
+2025-04-24 14:21:08 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:21:08.179408
+2025-04-24 14:21:08 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:21:08.180413
+2025-04-24 14:24:30 CRITICAL tray_monitor.py:254: Could not find the real systray window
+2025-04-24 14:31:52 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:31:52.138695
+2025-04-24 14:31:52 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:31:52.142201
+2025-04-24 14:31:52 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:31:52.148539
+2025-04-24 14:43:49 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:43:49.885942
+2025-04-24 14:43:49 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:43:49.898898
+2025-04-24 14:43:49 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:43:49.910533
+2025-04-24 14:52:22 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:52:22.788578
+2025-04-24 14:52:22 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:52:22.801145
+2025-04-24 14:52:22 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:52:22.813962
+2025-04-24 14:53:04 INFO controller.py:12: Reloading Application from CLI...
+2025-04-24 14:53:04 INFO log.py:21: Yasb v1.7.0
+2025-04-24 14:53:04 ERROR main.py:34: Another instance of the YASB is already running.
+2025-04-24 14:54:28 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 14:54:28 DEBUG _windows.py:201: Exiting thread
+2025-04-24 14:54:28 DEBUG _windows.py:75: Closing
+2025-04-24 14:54:28 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000002765082FBB0>. Removing link to WinEvent.EventObjectNameChange.
+2025-04-24 14:54:28 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000002765082FBB0>. Removing link to WinEvent.EventObjectStateChange.
+2025-04-24 14:54:28 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000002764EA9C370>. Removing link to WinEvent.EventObjectNameChange.
+2025-04-24 14:54:28 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000002764EA9C370>. Removing link to WinEvent.EventObjectStateChange.
+2025-04-24 14:54:28 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x0000027653EAD8B0>. Removing link to WinEvent.EventObjectNameChange.
+2025-04-24 14:54:28 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x0000027653EAD8B0>. Removing link to WinEvent.EventObjectStateChange.
+2025-04-24 14:54:28 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL foreground_change of ActiveWindowWidget object at 0x000002764EA9C370>. Removing link to WinEvent.EventSystemForeground.
+2025-04-24 14:54:28 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL foreground_change of ActiveWindowWidget object at 0x0000027653EAD8B0>. Removing link to WinEvent.EventSystemForeground.
+2025-04-24 14:54:54 INFO log.py:21: Yasb v1.7.0
+2025-04-24 14:54:54 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:54:54.272204
+2025-04-24 14:54:54 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 14:54:54 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 14:54:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:54:55.564593
+2025-04-24 14:54:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 14:54:55.762528
+2025-04-24 14:54:55 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 14:54:55 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 14:54:55 DEBUG _windows.py:192: Thread started
+2025-04-24 14:54:56 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 14:54:56 DEBUG utils.py:65: Could not open process with PID 0
+2025-04-24 15:04:58 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:04:58.464470
+2025-04-24 15:04:58 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:04:58.467479
+2025-04-24 15:04:58 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:04:58.467479
+2025-04-24 15:14:54 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:14:54.275739
+2025-04-24 15:14:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:14:55.557108
+2025-04-24 15:14:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:14:55.770598
+2025-04-24 15:24:54 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:24:54.266910
+2025-04-24 15:24:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:24:55.559710
+2025-04-24 15:24:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:24:55.759872
+2025-04-24 15:34:54 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:34:54.268166
+2025-04-24 15:34:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:34:55.557064
+2025-04-24 15:34:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:34:55.757832
+2025-04-24 15:44:54 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:44:54.259187
+2025-04-24 15:44:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:44:55.566047
+2025-04-24 15:44:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:44:55.765802
+2025-04-24 15:54:54 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:54:54.309401
+2025-04-24 15:54:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:54:55.561566
+2025-04-24 15:54:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 15:54:55.764062
+2025-04-24 16:04:54 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:04:54.316213
+2025-04-24 16:04:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:04:55.554813
+2025-04-24 16:04:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:04:55.755422
+2025-04-24 16:14:54 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:14:54.301083
+2025-04-24 16:14:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:14:55.546430
+2025-04-24 16:14:55 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:14:55.751827
+2025-04-24 16:17:45 INFO controller.py:12: Reloading Application from CLI...
+2025-04-24 16:17:45 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-24 16:17:45 DEBUG _windows.py:201: Exiting thread
+2025-04-24 16:17:45 DEBUG _windows.py:75: Closing
+2025-04-24 16:17:45 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000001F2B1DEC370>. Removing link to WinEvent.EventObjectNameChange.
+2025-04-24 16:17:45 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000001F2B71A58B0>. Removing link to WinEvent.EventObjectNameChange.
+2025-04-24 16:17:45 INFO log.py:21: Yasb v1.7.0
+2025-04-24 16:17:45 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:17:45.962575
+2025-04-24 16:17:45 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-24 16:17:46 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-24 16:17:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:17:47.350720
+2025-04-24 16:17:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:17:47.538215
+2025-04-24 16:17:47 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\yasb
+2025-04-24 16:17:47 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-24 16:17:47 DEBUG _windows.py:192: Thread started
+2025-04-24 16:27:45 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:27:45.868621
+2025-04-24 16:27:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:27:47.257816
+2025-04-24 16:27:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:27:47.441671
+2025-04-24 16:37:45 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:37:45.869607
+2025-04-24 16:37:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:37:47.268159
+2025-04-24 16:37:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:37:47.454789
+2025-04-24 16:47:45 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:47:45.862104
+2025-04-24 16:47:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:47:47.254542
+2025-04-24 16:47:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:47:47.440200
+2025-04-24 16:57:45 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:57:45.859984
+2025-04-24 16:57:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:57:47.256904
+2025-04-24 16:57:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 16:57:47.441914
+2025-04-24 17:07:45 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:07:45.861135
+2025-04-24 17:07:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:07:47.257200
+2025-04-24 17:07:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:07:47.442446
+2025-04-24 17:17:45 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:17:45.862334
+2025-04-24 17:17:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:17:47.252936
+2025-04-24 17:17:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:17:47.437759
+2025-04-24 17:29:50 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:29:50.710328
+2025-04-24 17:29:50 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:29:50.711330
+2025-04-24 17:29:50 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:29:50.711330
+2025-04-24 17:37:45 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:37:45.861055
+2025-04-24 17:37:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:37:47.254635
+2025-04-24 17:37:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:37:47.438576
+2025-04-24 17:47:45 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:47:45.859240
+2025-04-24 17:47:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:47:47.252966
+2025-04-24 17:47:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:47:47.436821
