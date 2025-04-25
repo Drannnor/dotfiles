@@ -2451,3 +2451,19 @@ bars:
 2025-04-24 17:47:45 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:47:45.859240
 2025-04-24 17:47:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:47:47.252966
 2025-04-24 17:47:47 INFO weather.py:349: Fetched new weather data at 2025-04-24 17:47:47.436821
+2025-04-25 12:37:19 INFO log.py:21: Yasb v1.7.0
+2025-04-25 12:37:19 INFO weather.py:349: Fetched new weather data at 2025-04-25 12:37:19.885395
+2025-04-25 12:37:19 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-25 12:37:19 DEBUG win32.py:55: Looking up time zone info from registry
+2025-04-25 12:37:20 INFO watcher.py:39: Created file watcher for path C:\Users\Saberporto196\.config\dotfiles\windowsdots\yasb\
+2025-04-25 12:37:20 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-04-25 12:37:20 DEBUG _windows.py:192: Thread started
+2025-04-25 12:41:16 INFO controller.py:12: Reloading Application from CLI...
+2025-04-25 12:41:16 DEBUG _windows.py:218: Stopping worker thread...
+2025-04-25 12:41:16 DEBUG _windows.py:201: Exiting thread
+2025-04-25 12:41:16 DEBUG _windows.py:75: Closing
+2025-04-25 12:41:16 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000002C79EBFC370>. Removing link to WinEvent.EventObjectNameChange.
+2025-04-25 12:41:16 INFO log.py:21: Yasb v1.7.0
+2025-04-25 12:41:17 INFO weather.py:349: Fetched new weather data at 2025-04-25 12:41:17.038063
+2025-04-25 12:41:17 DEBUG __init__.py:149: CoInitializeEx(None, 2)
+2025-04-25 12:41:17 DEBUG win32.py:55: Looking up time zone info from registry
