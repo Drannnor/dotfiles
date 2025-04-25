@@ -9,7 +9,7 @@ general:
   shutdown_commands: ['shell-exec taskkill /IM yasb.exe /F']
 
   # Commands to run after the WM config is reloaded.
-  config_reload_commands: ['shell-exec yasbc reload']
+  config_reload_commands: ['shell-exec yasbc reload --silent']
 
   # Whether to automatically focus windows underneath the cursor.
   focus_follows_cursor: true
@@ -37,7 +37,7 @@ general:
   # effect if `hide_method: 'hide'`.
   # - 'true': Show all windows (regardless of workspace).
   # - 'false': Only show windows from the currently shown workspaces.
-  show_all_in_taskbar: true
+  show_all_in_taskbar: false
 
 gaps:
   # Whether to scale the gaps with the DPI of the monitor.
@@ -65,7 +65,7 @@ window_effects:
     # Remove the title bar from the window's frame. Note that this can
     # cause rendering issues for some applications.
     hide_title_bar:
-      enabled: true
+      enabled: false
 
     # Change the corner style of the window's frame.
     # ** Exclusive to Windows 11 due to API limitations.
@@ -76,10 +76,10 @@ window_effects:
 
     # Change the transparency of the window.
     transparency:
-      enabled: false
+      enabled: true
       # Can be something like '95%' or '0.95' for slightly transparent windows.
       # '0' or '0%' is fully transparent (and, by consequence, unfocusable).
-      opacity: '95%'
+      opacity: '100%'
 
   # Visual effects to apply to non-focused windows.
   other_windows:
@@ -87,7 +87,7 @@ window_effects:
       enabled: true
       color: '#a1a1a1'
     hide_title_bar:
-      enabled: true
+      enabled: false
     corner_style:
       enabled: true
       style: 'rounded'
