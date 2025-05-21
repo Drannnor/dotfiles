@@ -1,11 +1,9 @@
 general:
   # Commands to run when the WM has started. This is useful for running a
   # script or launching another application.
-  # Example: The below command launches Zebar.
   startup_commands: ['shell-exec yasb']
 
   # Commands to run just before the WM is shutdown.
-  # Example: The below command kills Zebar.
   shutdown_commands: ['shell-exec taskkill /IM yasb.exe /F']
 
   # Commands to run after the WM config is reloaded.
@@ -127,7 +125,7 @@ workspaces:
     display_name: "\uf489"
     keep_alive: true
     bind_to_monitor: 1
-  - name: '2'
+  - name: "2" 
     display_name: ''
     keep_alive: true
     bind_to_monitor: 2
@@ -136,11 +134,11 @@ workspaces:
     keep_alive: true
     bind_to_monitor: 2
   - name: "4"
-    display_name: "🍜"
+    display_name: ""
     keep_alive: true
   - name: "5"
-    display_name: ""
-    keep_alive: false
+    display_name: ""
+    keep_alive: true
     bind_to_monitor: 2
   - name: "6"
     display_name: "󰭻"

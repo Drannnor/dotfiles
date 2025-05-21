@@ -4,7 +4,48 @@ debug: false
 bars:
   primary-bar:
     enabled: true
-    screens: ["*"]
+    screens: ['DELL P2422H (1)','DELL P2422H (3)']
+    class_name: "yasb-bar"
+    alignment:
+      position: "top"
+      center: false
+    blur_effect:
+      enabled: true 
+      acrylic: false
+      dark_mode: false
+      round_corners: true
+      round_corners_type: normal
+      border_color: System
+    window_flags:
+      always_on_top: true
+      windows_app_bar: true
+    dimensions:
+      width: "100%"
+      height: 40
+    padding:
+      top: 10
+      left: 10
+      bottom: 0
+      right: 10
+    animation:
+      enabled: true
+      duration: 200
+    widgets:
+      left: ["power_menu","glazewm_workspaces","glazewm_binding_mode","glazewm_tiling_direction","active_window"]
+      center: ["apps","media",]
+      right: ["whkd", "bluetooth","weather","systray","volume","clock"]
+    layouts:
+      left:
+        alignment: "left"
+        stretch: true
+      center:
+        alignment: "center"
+        stretch: true
+      right:
+        alignment: "right"
+        stretch: true
+  vertical-monitor-bar:
+    screens: ['DELL P2422H (2)'] 
     class_name: "yasb-bar"
     alignment:
       position: "top"
@@ -32,18 +73,8 @@ bars:
       duration: 200
     widgets:
       left: ["power_menu","glazewm_workspaces","active_window"]
-      center: ["apps"]
-      right: ["glazewm_tiling_direction","weather","volume", "systray", "clock"]
-    layouts:
-      left:
-        alignment: "left"
-        stretch: true
-      center:
-        alignment: "center"
-        stretch: true
-      right:
-        alignment: "right"
-        stretch: true
+      center: ["apps","media","bluetooth"]
+      right: [ "volume", "clock"]
 widgets:
   active_window:
     type: "yasb.active_window.ActiveWindowWidget"
@@ -66,15 +97,41 @@ widgets:
     type: "glazewm.workspaces.GlazewmWorkspacesWidget"
     options:
       offline_label: "GlazeWM Offline"
-      hide_empty_workspaces: true
-      hide_if_offline: true
+      hide_empty_workspaces: false
+      hide_if_offline: false
+      btn_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
+      container_padding: 
+        top: 0
+        left: 8
+        bottom: 0
+        right: 8
       populated_label: "{name}{display_name}"
       empty_label: "{name}{display_name}"
+      active_populated_label: "{name}{display_name}"
+      active_empty_label: "{name}{display_name}"
   glazewm_tiling_direction:
     type: "glazewm.tiling_direction.GlazewmTilingDirectionWidget"
     options:
       horizontal_label: "\udb81\udce1"
       vertical_label: "\udb81\udce2"
+  glazewm_binding_mode:
+    type: "glazewm.binding_mode.GlazewmBindingModeWidget"
+    options:
+      hide_if_no_active: false
+      label_if_no_active: "No binding mode active"
+      container_padding:
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+      callbacks:
+        on_left: "disable_binding_mode"
+        on_middle: "do_nothing"
+        on_right: "toggle_label" 
   weather:
     type: "yasb.weather.WeatherWidget"
     options:
@@ -190,14 +247,14 @@ widgets:
       label_position: "right"
       icon_size: 16
       pin_click_modifier: "alt"
-      show_unpinned: true
+      show_unpinned: false
       show_battery: false
       show_volume: false
   media:
     type: "yasb.media.MediaWidget"
     options:
-      label: "{title} - {artist}"
-      label_alt: "{title}"
+      label: "{title}"
+      label_alt: "{title} - {artist}"
       hide_empty: true
       callbacks:
         on_left: "toggle_label"
@@ -218,6 +275,27 @@ widgets:
         next_track: "\udb81\udcad"
         play: "\udb81\udc0a"
         pause: "\udb80\udfe4"
+  cava:
+    type: "yasb.cava.CavaWidget"
+    options:
+      bar_height: 12
+      min_bar_height: 0
+      gradient: 1
+      reverse: 0
+      foreground: "#89b4fa"
+      gradient_color_1: '#74c7ec'
+      gradient_color_2: '#89b4fa'
+      gradient_color_3: '#cba6f7'
+      bars_number: 8
+      bar_spacing: 2
+      bar_width: 4
+      sleep_timer: 2
+      hide_empty: true
+      container_padding:
+        top: 0
+        left: 8
+        bottom: 0
+        right: 8
   apps:
     type: "yasb.applications.ApplicationsWidget"
     options:
@@ -229,7 +307,8 @@ widgets:
       label: "{data}"
       app_list:
         - { icon: "\uf437", launch: "cmd /c Taskmgr" }
-        - { icon: "\uf489", launch: "wezterm-gui" }
+        - { icon: "\ue86c", launch: "pwsh"}
+        - { icon: "\uf268",launch: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" }
   taskbar:
     type: "yasb.taskbar.TaskbarWidget"
     options:
@@ -272,3 +351,73 @@ widgets:
         lazy_load_fadein: 400
         image_corner_radius: 20
         enable_cache: false
+  notes:
+    type: "yasb.notes.NotesWidget"
+    options:
+      label: "<span>\udb82\udd0c</span> {count}"
+      label_alt: "{count} notes"
+      container_padding:
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+      menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "right"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+        max_title_size: 150
+        show_date_time: true
+      icons:
+        note: "\udb82\udd0c"
+        delete: "\ue20d"
+      callbacks:
+        on_left: "toggle_menu"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
+  bluetooth:
+    type: "yasb.bluetooth.BluetoothWidget"
+    options:
+      label: "<span>{icon}</span>"
+      label_alt: "{device_name}"
+      icons: 
+        bluetooth_on: "\udb80\udcaf"
+        bluetooth_off: "\udb80\udcb2"
+        bluetooth_connected: "\udb80\udcb1"
+      callbacks:
+        on_right: "exec cmd.exe /c start ms-settings:bluetooth"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
+  whkd:
+    type: "yasb.whkd.WhkdWidget"
+    options:
+      label: "<span>\uf11c</span>"
+      special_keys:
+        - key: "win"
+          key_replace: "\ue70f"
+        - key: "ctrl"
+          key_replace: "Ctrl"
+        - key: "alt" 
+          key_replace: "Alt"
+        - key: "shift"
+          key_replace: "Shift"
+        - key: "left"
+          key_replace: "\u2190"
+        - key: "right"
+          key_replace: "\u2192"
+        - key: "up"
+          key_replace: "\u2191"
+        - key: "down"
+          key_replace: "\u2193"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
