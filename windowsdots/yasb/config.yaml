@@ -4,7 +4,7 @@ debug: false
 bars:
   primary-bar:
     enabled: true
-    screens: ['DELL P2422H (1)','DELL P2422H (3)']
+    screens: ["*"]
     class_name: "yasb-bar"
     alignment:
       position: "top"
@@ -21,7 +21,7 @@ bars:
       windows_app_bar: true
     dimensions:
       width: "100%"
-      height: 40
+      height: 30
     padding:
       top: 10
       left: 10
@@ -31,21 +31,21 @@ bars:
       enabled: true
       duration: 200
     widgets:
-      left: ["power_menu","glazewm_workspaces","glazewm_binding_mode","glazewm_tiling_direction","active_window"]
-      center: ["apps","media",]
-      right: ["whkd", "bluetooth","weather","systray","volume","clock"]
+      left: ["power_menu","glazewm_workspaces","glazewm_tiling_direction","active_window"]
+      center: ["apps","clock","taskbar"]
+      right: ["systray","volume","media","bluetooth", "wifi", "battery"]
     layouts:
       left:
         alignment: "left"
         stretch: true
       center:
         alignment: "center"
-        stretch: true
+        stretch: false
       right:
         alignment: "right"
         stretch: true
   vertical-monitor-bar:
-    screens: ['DELL P2422H (2)'] 
+    screens: ['Dontuse'] 
     class_name: "yasb-bar"
     alignment:
       position: "top"
@@ -83,20 +83,25 @@ widgets:
       label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
       label_no_window: ""
       label_icon: true
-      label_icon_size: 16
+      label_icon_size: 12
       max_length: 56
       max_length_ellipsis: "..."
       monitor_exclusive: false
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%a, %d %b %H:%M}"
+      label: "{%a, %d %b %H:%M:%S}"
       label_alt: "{%A, %d %B %Y %H:%M:%S}"
       timezones: []
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 2
+        offset: [ 1, 1 ]
   glazewm_workspaces:
     type: "glazewm.workspaces.GlazewmWorkspacesWidget"
     options:
-      offline_label: "GlazeWM Offline"
+      offline_label: "GlazeWM..."
       hide_empty_workspaces: false
       hide_if_offline: false
       btn_shadow:
@@ -106,9 +111,9 @@ widgets:
         offset: [ 1, 1 ]
       container_padding: 
         top: 0
-        left: 8
+        left: 4
         bottom: 0
-        right: 8
+        right: 4
       populated_label: "{name}{display_name}"
       empty_label: "{name}{display_name}"
       active_populated_label: "{name}{display_name}"
@@ -118,6 +123,11 @@ widgets:
     options:
       horizontal_label: "\udb81\udce1"
       vertical_label: "\udb81\udce2"
+    label_shadow:
+        enabled: true
+        color: "black"
+        radius: 2
+        offset: [ 1, 1 ]
   glazewm_binding_mode:
     type: "glazewm.binding_mode.GlazewmBindingModeWidget"
     options:
@@ -132,6 +142,11 @@ widgets:
         on_left: "disable_binding_mode"
         on_middle: "do_nothing"
         on_right: "toggle_label" 
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 2
+        offset: [ 1, 1 ]
   weather:
     type: "yasb.weather.WeatherWidget"
     options:
@@ -167,6 +182,11 @@ widgets:
         direction: "down"
         distance: 6
         icon_size: 64
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 2
+        offset: [ 1, 1 ]
   volume:
     type: "yasb.volume.VolumeWidget"
     options:
@@ -180,6 +200,11 @@ widgets:
         - "\uf028"
       callbacks:
         on_right: "exec cmd.exe /c start ms-settings:sound"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 2
+        offset: [ 1, 1 ]
   battery:
     type: "yasb.battery.BatteryWidget"
     options:
@@ -187,6 +212,11 @@ widgets:
       label_alt: "<span>{icon}</span> {percent}% | time: {time_remaining}"
       charging_options:
         icon_format: "{charging_icon}"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 2
+        offset: [ 1, 1 ]
   brightness:
     type: "yasb.brightness.BrightnessWidget"
     options:
@@ -212,6 +242,11 @@ widgets:
         left: 8
         bottom: 0
         right: 8
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 2
+        offset: [ 1, 1 ]
   wifi:
     type: "yasb.wifi.WifiWidget"
     options:
@@ -222,6 +257,11 @@ widgets:
         on_left: "exec quick_settings"
         on_middle: "exec cmd.exe /c start ms-settings:network"
         on_right: "toggle_label"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 2
+        offset: [ 1, 1 ]
   power_menu:
     type: "yasb.power_menu.PowerMenuWidget"
     options:
@@ -238,6 +278,11 @@ widgets:
         hibernate: ["\uf28e", "Hibernate"]
         sleep: ["\u23fe", "Sleep"]
         cancel: ["", "Cancel"]
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 2
+        offset: [ 1, 1 ]
   systray:
     type: "yasb.systray.SystrayWidget"
     options:
@@ -245,7 +290,7 @@ widgets:
       label_collapsed: "\udb80\udf5e"
       label_expanded: "\udb80\udf5f"
       label_position: "right"
-      icon_size: 16
+      icon_size: 12
       pin_click_modifier: "alt"
       show_unpinned: false
       show_battery: false
@@ -267,14 +312,24 @@ widgets:
       controls_only: false
       controls_left: false
       controls_hide: false
-      thumbnail_alpha: 80
-      thumbnail_padding: 8
-      thumbnail_corner_radius: 16
+      thumbnail_alpha: 95
+      thumbnail_padding: 0
+      thumbnail_corner_radius: 12
       icons:
         prev_track: "\udb81\udcae"
         next_track: "\udb81\udcad"
         play: "\udb81\udc0a"
         pause: "\udb80\udfe4"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
+      container_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
   cava:
     type: "yasb.cava.CavaWidget"
     options:
@@ -307,8 +362,13 @@ widgets:
       label: "{data}"
       app_list:
         - { icon: "\uf437", launch: "cmd /c Taskmgr" }
-        - { icon: "\ue86c", launch: "pwsh"}
+        - { icon: "\ue86c", launch: "cmd /c pwsh"}
         - { icon: "\uf268",launch: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" }
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 2
+        offset: [ 1, 1 ]
   taskbar:
     type: "yasb.taskbar.TaskbarWidget"
     options:
@@ -316,7 +376,7 @@ widgets:
         enabled: true
         duration: 200
         type: "fadeInOut"
-      icon_size: 16
+      icon_size: 12
       ignore_apps:
         processes: []
         titles: []
@@ -331,6 +391,11 @@ widgets:
         show: "focused"
         min_length: 10
         max_length: 30
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 2
+        offset: [ 1, 1 ]
   wallpapers:
     type: "yasb.wallpapers.WallpapersWidget"
     options:
@@ -385,7 +450,7 @@ widgets:
       label: "<span>{icon}</span>"
       label_alt: "{device_name}"
       icons: 
-        bluetooth_on: "\udb80\udcaf"
+        bluetooth_on: "\uf293"
         bluetooth_off: "\udb80\udcb2"
         bluetooth_connected: "\udb80\udcb1"
       callbacks:
@@ -393,7 +458,7 @@ widgets:
       label_shadow:
         enabled: true
         color: "black"
-        radius: 3
+        radius: 2
         offset: [ 1, 1 ]
   whkd:
     type: "yasb.whkd.WhkdWidget"

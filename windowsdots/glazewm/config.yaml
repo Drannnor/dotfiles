@@ -14,7 +14,7 @@ general:
 
   # Whether to switch back and forth between the previously focused
   # workspace when focusing the current workspace.
-  toggle_workspace_on_refocus: false
+  toggle_workspace_on_refocus: true
 
   cursor_jump:
     # Whether to automatically move the cursor on the specified trigger.
@@ -35,7 +35,7 @@ general:
   # effect if `hide_method: 'hide'`.
   # - 'true': Show all windows (regardless of workspace).
   # - 'false': Only show windows from the currently shown workspaces.
-  show_all_in_taskbar: false
+  show_all_in_taskbar: true
 
 gaps:
   # Whether to scale the gaps with the DPI of the monitor.
@@ -112,7 +112,7 @@ window_behavior:
     fullscreen:
       # Maximize the window if possible. If the window doesn't have a
       # maximize button, then it'll be fullscreen'ed normally instead.
-      maximized: false
+      maximized: true
 
       # Whether to show fullscreen windows as always on top.
       shown_on_top: true
@@ -198,7 +198,7 @@ window_rules:
       - window_process: { regex: "msedge|brave|chrome" }
   - commands: ["move --workspace 3"]
     match:
-      - window_class: { regex: "UnrealWindow|(?i)splashscreen" }
+      - window_class: { regex: "Unreal" }
   - commands: ["move --workspace 5"]
     match:
       - window_process: { regex: "p4v" }
@@ -211,7 +211,7 @@ window_rules:
       - window_title: { equals: "Spotify Premium" }
   - commands: ["move --workspace 8"]
     match:
-      - window_process: { regex: "thunderbird" }
+      - window_process: { regex: "thunderbir|outlook" }
   - commands: ["move --workspace 9"]
     match:
       - window_process: { regex: "code" }
