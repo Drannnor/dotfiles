@@ -5,16 +5,16 @@
     --background-color2: rgba(30, 34, 40, 0.4);
     --background-color3: rgba(30, 34, 40, 1);
     --saberporto-color: rgb(8, 88, 39);
-    --foreground-color: rgb(237, 240, 237);
+    --foreground-color: rgb(237, 238, 240);
     --accent-color: #0078d4;
-    --border-color: rgb(58, 69, 53);
-    --icon-color: rgb(255, 255, 255);
+    --border-color: rgb(53, 59, 69);
+    --icon-color: rgb(169, 174, 184);
     --icon-hover: rgba(169, 174, 184, 0.8);
-    --hover-color: rgba(115, 135, 93, 0.12);
-    --active-color: rgb(96, 135, 93);
-    --inactive-color: rgba(82, 122, 86, 0.5);
-    --white-color: rgb(190, 232, 169);
-    --media-border-color: rgba(50, 159, 33, 0.517);
+    --hover-color: rgba(93, 114, 135, 0.12);
+    --active-color: rgb(93, 114, 135);
+    --inactive-color: rgba(93, 114, 135, 0.5);
+    --white-color: rgb(237, 238, 240);
+    --media-border-color: rgba(173, 193, 213, 0.521);
     --bar-border-color: rgb(28, 73, 197);
 }
 
@@ -31,7 +31,7 @@
 
 /* --- Yasb Bar Itself --- */
 .yasb-bar {
-    background-color: var(--saberporto-color);
+    background-color: var(--background-color);
     /* border-radius: 10px; */
     /* border: 1px solid var(--bar-border-color); */
 }
