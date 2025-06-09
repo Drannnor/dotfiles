@@ -70,7 +70,6 @@
     margin: 4px 0px;
     padding: 0px;
 }
-
 .apps-widget .widget-container .label {
     font-size: 12px;
 }
@@ -165,7 +164,7 @@
 
 /* --- Power Menu Widget --- */
 .power-menu-widget .label {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 /* --- Power Menu Popup --- */
@@ -585,3 +584,35 @@
     margin:2px;
     padding: 2px;
 }
+
+.update-check-widget {
+    padding: 0 6px 0 6px;
+}
+.update-check-widget .icon {
+    font-size: 14px;
+}
+.update-check-widget .widget-container.winget,
+.update-check-widget .widget-container.windows {
+    background: #eba0ac;
+    margin: 6px 2px 6px 2px;
+    border-radius: 8px;
+    border: 2px solid #f38ba8;
+}
+.update-check-widget .widget-container.windows {
+    background: #b4befe;
+    margin: 6px 2px 6px 2px;
+    border-radius: 8px;
+    border: 2px solid #89b4fa;
+}
+.update-check-widget .widget-container.winget .icon,
+.update-check-widget .widget-container.windows .icon {
+    color: #1e1e2e;
+    margin: 0 1px 0 6px;
+}
+.update-check-widget .widget-container.winget .label,
+.update-check-widget .widget-container.windows .label {
+    margin: 0 6px 0 1px;
+    color: #1e1e2e;
+    font-weight: 900;
+    font-size: 14px;
+} 

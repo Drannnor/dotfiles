@@ -191,6 +191,10 @@ window_rules:
       - window_process: { equals: 'Lively' }
         window_class: { regex: 'HwndWrapper' }
 
+      - window_process: { equals: "mstsc" }
+
+
+
   - commands: ["move --workspace 1"]
     match:
       - window_process: { regex: "rider64|Code" }

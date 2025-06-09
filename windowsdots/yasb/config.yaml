@@ -17,7 +17,7 @@ bars:
       round_corners_type: normal
       border_color: System
     window_flags:
-      always_on_top: true
+      always_on_top: false
       windows_app_bar: true
     dimensions:
       width: "100%"
@@ -356,8 +356,9 @@ widgets:
         right: 8
       label: "{data}"
       app_list:
-        - { icon: "\uec19", launch: "cmd /c Taskmgr" }
-        - { icon: "\ue86c", launch: "cmd /c pwsh"}
+        - { icon: "\uf437", launch: "cmd /c Taskmgr" }
+        - { icon: "\ue86c", launch: "cmd /c powershell"} 
+        - { icon: "\ueb39", launch: "cmd /c mstsc /v:10.12.3.185" }
         - { icon: "\uf268",launch: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" }
       label_shadow:
         enabled: true
@@ -367,6 +368,7 @@ widgets:
   taskbar:
     type: "yasb.taskbar.TaskbarWidget"
     options:
+      monitor_exclusive: true
       animation:
         enabled: true
         duration: 200
@@ -454,6 +456,24 @@ widgets:
         enabled: true
         color: "black"
         radius: 2
+        offset: [ 1, 1 ]
+  update_check:
+    type: "yasb.update_check.UpdateCheckWidget"
+    options:
+      windows_update:
+        enabled: false
+        label: "<span>\uf0ab</span> {count}"
+        interval: 240
+        exclude: ['Discord.Discord']
+      winget_update:
+        enabled: true
+        label: "<span>\uf0ab</span> {count}"
+        interval: 60
+        exclude: ['Discord.Discord', 'Microsoft.Edge']
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
         offset: [ 1, 1 ]
   whkd:
     type: "yasb.whkd.WhkdWidget"
