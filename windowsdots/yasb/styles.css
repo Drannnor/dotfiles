@@ -4,16 +4,17 @@
     --background-color: rgba(30, 34, 40, 0.7);
     --background-color2: rgba(30, 34, 40, 0.4);
     --background-color3: rgba(30, 34, 40, 1);
-    --foreground-color: rgb(237, 238, 240);
+    --saberporto-color: rgb(8, 88, 39);
+    --foreground-color: rgb(237, 240, 237);
     --accent-color: #0078d4;
-    --border-color: rgb(53, 59, 69);
-    --icon-color: rgb(169, 174, 184);
+    --border-color: rgb(58, 69, 53);
+    --icon-color: rgb(255, 255, 255);
     --icon-hover: rgba(169, 174, 184, 0.8);
-    --hover-color: rgba(93, 114, 135, 0.12);
-    --active-color: rgb(93, 114, 135);
-    --inactive-color: rgba(93, 114, 135, 0.5);
-    --white-color: rgb(237, 238, 240);
-    --media-border-color: rgba(173, 193, 213, 0.521);
+    --hover-color: rgba(115, 135, 93, 0.12);
+    --active-color: rgb(96, 135, 93);
+    --inactive-color: rgba(82, 122, 86, 0.5);
+    --white-color: rgb(190, 232, 169);
+    --media-border-color: rgba(50, 159, 33, 0.517);
     --bar-border-color: rgb(28, 73, 197);
 }
 
@@ -22,7 +23,7 @@
     font-size: 12px;
     color: var(--foreground-color);
     font-weight: 900;
-    font-family: "JetBrainsMono Nerd Font Propo";
+    font-family: "JetBrainsMono NFP";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,7 +31,7 @@
 
 /* --- Yasb Bar Itself --- */
 .yasb-bar {
-    background-color: var(--background-color);
+    background-color: var(--saberporto-color);
     /* border-radius: 10px; */
     /* border: 1px solid var(--bar-border-color); */
 }
@@ -85,16 +86,17 @@
 	margin: 4px;
     background-color: var(--background-color2);
     border-radius: 8px;
+    padding: 2px
 }
 .glazewm-workspaces .ws-btn {
     background-color: var(--background-color);
     font-size: 12px;
-    margin: 1px 2px;
-    padding: 0px 4px 0px 0px;
+    margin: 0px 2px;
+    padding: 1px 2px 1px 1px;
     color: var(--icon-color);
     border-radius: 5px;
     display:flex;
-    align-items: left;
+    align-content: center;
     border: 1.5px solid var(--border-color);
 }
 .glazewm-workspaces .ws-btn.populated {
@@ -120,10 +122,10 @@
     padding: 0 6px 0 4px;
     color: var(--foreground-color);
     border: none;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* margin: px 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 2px;
 }
 
 .glazewm-tiling-direction .btn:hover {
@@ -542,7 +544,7 @@
 .calendar .calendar-table::item {
     background-color: rgba(17, 17, 27, 0);
     color: rgba(162, 177, 196, 0.85);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     border: none;
@@ -557,7 +559,7 @@
 .calendar .day-label,
 .calendar .month-label,
 .calendar .date-label {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 16px;
     color: #fff;
     font-weight: 700;

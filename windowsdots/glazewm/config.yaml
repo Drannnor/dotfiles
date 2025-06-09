@@ -7,14 +7,14 @@ general:
   shutdown_commands: ['shell-exec taskkill /IM yasb.exe /F']
 
   # Commands to run after the WM config is reloaded.
-  config_reload_commands: ['shell-exec yasbc reload --silent']
+  config_reload_commands: ['shell-exec yasbc reload']
 
   # Whether to automatically focus windows underneath the cursor.
   focus_follows_cursor: true
 
   # Whether to switch back and forth between the previously focused
   # workspace when focusing the current workspace.
-  toggle_workspace_on_refocus: true
+  toggle_workspace_on_refocus: false
 
   cursor_jump:
     # Whether to automatically move the cursor on the specified trigger.
@@ -136,6 +136,7 @@ workspaces:
   - name: "4"
     display_name: ""
     keep_alive: true
+    bind_to_monitor: 0
   - name: "5"
     display_name: ""
     keep_alive: true
@@ -199,27 +200,27 @@ window_rules:
   - commands: ["move --workspace 3"]
     match:
       - window_class: { regex: "Unreal" }
+      - window_process: { regex: "Unreal"}
   - commands: ["move --workspace 5"]
     match:
       - window_process: { regex: "p4v" }
   - commands: ["move --workspace 6"]
     match:
-      - window_process: { regex: "Telegram|WhatsApp|Discord" }
-      - window_title: { equals: "WhatsApp" }
+      - window_process: { regex: "Telegram|Discord" }
+      - window_title: { regex: "WhatsApp" }
   - commands: ["move --workspace 7"]
     match:
-      - window_title: { equals: "Spotify Premium" }
+      - window_title: { regex: "Spotify" }
   - commands: ["move --workspace 8"]
     match:
-      - window_process: { regex: "thunderbir|outlook" }
-  - commands: ["move --workspace 9"]
+      - window_process: { regex: "Thunderbird" }
+  - commands: ["move --workspace 10"]
     match:
-      - window_process: { regex: "code" }
-  - commands: ["move --workspace 11"]
-    match:
-      - window_title: { regex: "Find|Debug" }
-      - window_process: { regex: "rider64" }
-      - window_class: { equals: "SunAwtFrame"}
+      - window_process: { equals: "Code" }
+        window_title: { regex: "dotfiles_workspace"}
+  # - commands: ["move --workspace 11"]
+  #   match:
+  #     - window_class: { equals: "SunAwtFrame"}
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
@@ -295,6 +296,14 @@ keybindings:
   # Change the focused window to be tiling.
   - commands: ['toggle-tiling']
     bindings: ['alt+t']
+
+  # Big Tile
+  - commands: ['size --width 50%']
+    bindings: ['alt+shift+b']
+
+  # Big Tile
+  - commands: ['size --width 80%']
+    bindings: ['alt+b']
 
   # Change the focused window to be fullscreen.
   - commands: ['toggle-fullscreen']
