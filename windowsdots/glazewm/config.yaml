@@ -14,7 +14,7 @@ general:
 
   # Whether to switch back and forth between the previously focused
   # workspace when focusing the current workspace.
-  toggle_workspace_on_refocus: true
+  toggle_workspace_on_refocus: false
 
   cursor_jump:
     # Whether to automatically move the cursor on the specified trigger.
@@ -190,6 +190,10 @@ window_rules:
       - window_process: { equals: 'Lively' }
         window_class: { regex: 'HwndWrapper' }
 
+      - window_process: { equals: "mstsc" }
+
+
+
   - commands: ["move --workspace 1"]
     match:
       - window_process: { regex: "rider64|Code" }
@@ -215,11 +219,14 @@ window_rules:
   - commands: ["move --workspace 9"]
     match:
       - window_process: { regex: "code" }
+  # - commands: ["move --workspace 10"]
+  #   match:
+  #     - window_process: { regex: "Remote Desktop Connection" }
   - commands: ["move --workspace 11"]
     match:
-      - window_title: { regex: "Find|Debug" }
       - window_process: { regex: "rider64" }
-      - window_class: { equals: "SunAwtFrame"}
+        window_title: { regex: "Find|Debug" }
+        window_class: { equals: "SunAwtFrame"}
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
