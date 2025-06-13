@@ -162,15 +162,15 @@ workspaces:
     keep_alive: false
     bind_to_monitor: 1
   - name: "11"
-    display_name: "󱃗*"
+    display_name: "󱃗"
     keep_alive: false
     bind_to_monitor: 0
   - name: "12"
-    display_name: "*"
+    display_name: ""
     keep_alive: false
     bind_to_monitor: 1
   - name: "13"
-    display_name: "󰦱*"
+    display_name: "󰦱"
     keep_alive: false
     bind_to_monitor: 0
 
@@ -190,9 +190,7 @@ window_rules:
         window_title: { regex: '.*? - Peek' }
       - window_process: { equals: 'Lively' }
         window_class: { regex: 'HwndWrapper' }
-
       - window_process: { equals: "mstsc" }
-
 
 
   - commands: ["move --workspace 1"]
@@ -208,23 +206,26 @@ window_rules:
   - commands: ["move --workspace 5"]
     match:
       - window_process: { regex: "p4v" }
+      - window_class: { equals: "SunAwtFrame"}
+        window_title: {regex: "Perforce"}
   - commands: ["move --workspace 6"]
     match:
       - window_process: { regex: "Telegram|Discord" }
       - window_title: { regex: "WhatsApp" }
   - commands: ["move --workspace 7"]
     match:
-      - window_title: { regex: "Spotify" }
+      - window_process: { equals: "Spotify" }
   - commands: ["move --workspace 8"]
     match:
-      - window_process: { regex: "Thunderbird" }
+      - window_process: { equals: "thunderbird" }
   - commands: ["move --workspace 10"]
     match:
       - window_process: { equals: "Code" }
         window_title: { regex: "dotfiles_workspace"}
-  # - commands: ["move --workspace 11"]
-  #   match:
-  #     - window_class: { equals: "SunAwtFrame"}
+  - commands: ["move --workspace 11"]
+    match:
+      - window_class: { equals: "SunAwtFrame"}
+        window_title: { regex: "Pets - |Find - |Explorer - |Debug - |Build - "}
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
