@@ -53,7 +53,7 @@
 
 /* --- Individual Widgets --- */
 .widget {
-    padding: 0 8px;
+    padding: 0 4px;
     margin: 0;
 }
 .container-right
@@ -186,6 +186,7 @@
 /* --- Power Menu Widget --- */
 .power-menu-widget .label {
     font-size: 20px;
+    padding: 0px 0px 0px 8px;
 }
 
 /* --- Power Menu Popup --- */
@@ -619,4 +620,20 @@ Example: "Windows Media" becomes "windows-media" */
     color: #1e1e2e;
     font-weight: 900;
     font-size: 14px;
-} 
+}
+
+.bluetooth-widget .icon {
+    font-size: 16px;
+}
+
+.cpu-widget .widget-container .icon {
+    font-size: 12px;
+}
+
+.active-window-widget {
+    padding: 0px 0px 0px 4px;
+}
+.active-window-widget .widget-container {}
+.active-window-widget .widget-container .label {}
+.active-window-widget .widget-container .label.alt {}
+.active-window-widget .widget-container .icon {}
