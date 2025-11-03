@@ -42,14 +42,14 @@ gaps:
   scale_with_dpi: true
 
   # Gap between adjacent windows.
-  inner_gap: '10px'
+  inner_gap: '5px'
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: '10px'
-    right: '10px'
-    bottom: '10px'
-    left: '10px'
+    top: '5px'
+    right: '5px'
+    bottom: '5px'
+    left: '5px'
 
 window_effects:
   # Visual effects to apply to the focused window.
@@ -91,7 +91,7 @@ window_effects:
       style: 'rounded'
     transparency:
       enabled: true
-      opacity: '85%'
+      opacity: '95%'
 
 window_behavior:
   # New windows are created in this state whenever possible.
@@ -123,7 +123,7 @@ workspaces:
   # `display_name` is not provided.
   - name: "1"
     display_name: "\uf489"
-    keep_alive: true
+    keep_alive: false
     bind_to_monitor: 1
   - name: "2" 
     display_name: ''
@@ -131,27 +131,27 @@ workspaces:
     bind_to_monitor: 2
   - name: "3"
     display_name: "󰦱"
-    keep_alive: true
+    keep_alive: false
     bind_to_monitor: 2
   - name: "4"
     display_name: ""
-    keep_alive: true
+    keep_alive: false
     bind_to_monitor: 0
   - name: "5"
     display_name: ""
-    keep_alive: true
+    keep_alive: false
     bind_to_monitor: 2
   - name: "6"
     display_name: "󰭻"
-    keep_alive: true
+    keep_alive: false 
     bind_to_monitor: 0
   - name: "7"
     display_name: ""
-    keep_alive: true
+    keep_alive: false
     bind_to_monitor: 2
   - name: "8"
     display_name: "󰇮"
-    keep_alive: true
+    keep_alive: false
     bind_to_monitor: 2
   - name: "9"
     display_name: "󰯉"
@@ -172,7 +172,7 @@ workspaces:
   - name: "13"
     display_name: "󰦱"
     keep_alive: false
-    bind_to_monitor: 0
+    bind_to_monitor: 1
 
 window_rules:
   - commands: ['ignore']
@@ -181,7 +181,7 @@ window_rules:
       - window_process: { equals: 'zebar' }
 
       # Ignores picture-in-picture windows for browsers.
-      - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
+      - window_title: { regex: '[Pp]icture.in.[Pp]icture|[Ee]crã no [Ee]crã' }
         window_class: { regex: 'Chrome_WidgetWin_1|MozillaDialogClass' }
 
       # Ignore rules for various 3rd-party apps.
@@ -192,17 +192,18 @@ window_rules:
         window_class: { regex: 'HwndWrapper' }
       - window_process: { equals: "mstsc" }
 
-
   - commands: ["move --workspace 1"]
     match:
       - window_process: { regex: "rider64|Code" }
-  - commands: ["move --workspace 2"]
+  - commands: ["move --workspace 2", "set-transparency --opacity 10%"]
     match:
       - window_process: { regex: "msedge|brave|chrome" }
   - commands: ["move --workspace 3"]
     match:
       - window_class: { regex: "Unreal" }
-      - window_process: { regex: "Unreal"}
+      - window_process: { regex: "Unreal Editor"}
+      - window_title: {regex: "Unreal"}
+        window_class: { equals: "SplashScreenClass"}
   - commands: ["move --workspace 5"]
     match:
       - window_process: { regex: "p4v" }
@@ -218,14 +219,18 @@ window_rules:
   - commands: ["move --workspace 8"]
     match:
       - window_process: { equals: "thunderbird" }
+  - commands: ["move --workspace 9", "toggle-floating --centered"]
+    match:
+      - window_process: { equals: "houdini" }
   - commands: ["move --workspace 10"]
     match:
       - window_process: { equals: "Code" }
         window_title: { regex: "dotfiles_workspace"}
   - commands: ["move --workspace 11"]
     match:
-      - window_class: { equals: "SunAwtFrame"}
-        window_title: { regex: "Pets - |Find - |Explorer - |Debug - |Build - "}
+      - window_process: { equals: "rider64" }
+        window_class: { equals: "SunAwtFrame"}
+        window_title: { regex: "Explorer - |Debug - |Build - |Structure - |UnrealLink - |Bookmarks - "}
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
@@ -302,13 +307,17 @@ keybindings:
   - commands: ['toggle-tiling']
     bindings: ['alt+t']
 
-  # Big Tile
-  - commands: ['size --width 50%']
-    bindings: ['alt+shift+b']
+  # Transparency
+  - commands: ["set-transparency --opacity 100%"]
+    bindings: ['alt+shift+g']
 
-  # Big Tile
-  - commands: ['size --width 80%']
-    bindings: ['alt+b']
+  # Transparency
+  - commands: ["set-transparency --opacity 50%"]
+    bindings: ['alt+g']
+
+  # # Toggle Title Bar
+  # - commands: ["toggle-hide_title_bar"]
+  #   bindings: ['alt+shift+t']
 
   # Change the focused window to be fullscreen.
   - commands: ['toggle-fullscreen']
@@ -318,17 +327,32 @@ keybindings:
   - commands: ['toggle-minimized']
     bindings: ['alt+m']
 
+  # Cycle
+  - commands:
+      - >
+        shell-exec powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass
+        -Command "& {
+          $scriptDir = Split-Path -Parent $env:GLAZEWM_CONFIG_PATH;
+          $script    = Join-Path $scriptDir 'cycle_workspaces.ps1';
+          powershell -NoProfile -ExecutionPolicy Bypass -File $script -DelayMs 60 -TotalWorkspaces 13 -VerboseLog true
+        }"
+    bindings: ['alt+shift+M']
+
+
   # Close focused window.
   - commands: ['close']
     bindings: ['alt+shift+q']
 
   # Kill GlazeWM process safely.
-  - commands: ['wm-exit']
+  - commands: ['wm-exit', 'shell-exec yasbc stop']
     bindings: ['alt+shift+e']
 
   # Re-evaluate configuration file.
   - commands: ['wm-reload-config']
     bindings: ['alt+shift+r']
+  # Reload yasb
+  - commands: ['shell-exec yasbc reload']
+    bindings: ['alt+shift+y']
 
   # Redraw all windows.
   - commands: ['wm-redraw']

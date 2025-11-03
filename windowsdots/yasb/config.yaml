@@ -22,19 +22,19 @@ bars:
       hide_on_fullscreen: true
     dimensions:
       width: "100%"
-      height: 30
+      height: 40
     padding:
-      top: 10
-      left: 10
+      top: 5
+      left: 5
       bottom: 0
-      right: 10
+      right: 5
     animation:
       enabled: true
       duration: 200
     widgets:
       left: ["power_menu","glazewm_workspaces","glazewm_tiling_direction","glazewm_binding_mode","active_window"]
       center: ["apps","clock","taskbar"]
-      right: ["systray","cpu","media","volume","bluetooth", "wifi", "battery"]
+      right: ["systray", "todo", "pomodoro","cpu","media","volume","bluetooth", "wifi", "battery"]
     layouts:
       left:
         alignment: "left"
@@ -45,37 +45,49 @@ bars:
       right:
         alignment: "right"
         stretch: false
-  # vertical-monitor-bar:
-  #   screens: ['Dontuse'] 
-  #   class_name: "yasb-bar"
-  #   alignment:
-  #     position: "top"
-  #     center: false
-  #   blur_effect:
-  #     enabled: true 
-  #     acrylic: false
-  #     dark_mode: false
-  #     round_corners: true
-  #     round_corners_type: normal
-  #     border_color: System
-  #   window_flags:
-  #     always_on_top: true
-  #     windows_app_bar: true
-  #   dimensions:
-  #     width: "100%"
-  #     height: 40
-  #   padding:
-  #     top: 10
-  #     left: 10
-  #     bottom: 0
-  #     right: 10
-  #   animation:
-  #     enabled: true
-  #     duration: 200
-  #   widgets:
-  #     left: ["power_menu","glazewm_workspaces","active_window"]
-  #     center: ["apps","media","bluetooth"]
-  #     right: [ "volume", "clock"]
+  vertical-monitor-bar:
+    screens: ['DELL P2422H (2)'] 
+    enabled: true
+    class_name: "yasb-bar"
+    alignment:
+      position: "top"
+      center: false
+    blur_effect:
+      enabled: true 
+      acrylic: false
+      dark_mode: false
+      round_corners: true
+      round_corners_type: normal
+      border_color: "#1e3c50b3"
+    window_flags:
+      always_on_top: false
+      windows_app_bar: true
+      hide_on_fullscreen: true
+    dimensions:
+      width: "100%"
+      height: 40
+    padding:
+      top: 5
+      left: 5
+      bottom: 0
+      right: 5
+    animation:
+      enabled: true
+      duration: 200
+    widgets:
+      left: ["power_menu","glazewm_workspaces","glazewm_tiling_direction","glazewm_binding_mode","active_window"]
+      center: ["clock","taskbar"]
+      right: ["systray","cpu","volume","bluetooth", "wifi", "battery"]
+    layouts:
+      left:
+        alignment: "left"
+        stretch: false
+      center:
+        alignment: "center"
+        stretch: true
+      right:
+        alignment: "right"
+        stretch: false
 widgets:
   active_window:
     type: "yasb.active_window.ActiveWindowWidget"
@@ -84,26 +96,71 @@ widgets:
       label_alt: "['{win[title]}', '{win[class_name]}', '{win[process][name]}', {win[hwnd]}]"
       label_no_window: ""
       label_icon: true
-      label_icon_size: 12
+      label_icon_size: 20
       max_length: 56
       max_length_ellipsis: "..."
       monitor_exclusive: false
+  # clock:
+  #   type: "yasb.clock.ClockWidget"
+  #   options:
+  #     label: "{%a, %d %b %H:%M:%S}"
+  #     label_alt: "{%A, %d %B %Y %H:%M:%S}"
+  #     timezones: []
+  #     label_shadow:
+  #       enabled: true
+  #       color: "black"
+  #       radius: 2
+  #       offset: [ 1, 1 ]
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%a, %d %b %H:%M:%S}"
+      label: "{%a, %d %b %H:%M:%S}<span>{icon}</span>"
       label_alt: "{%A, %d %B %Y %H:%M:%S}"
+      locale: ""
+      update_interval: 1000
       timezones: []
+      icons:
+        clock_01 : "GO EAT!"
+        clock_02 : "\udb85\udc40"
+        clock_03 : "\udb85\udc41"
+        clock_04 : "\udb85\udc42"
+        clock_05 : "\udb85\udc43"
+        clock_06 : "\udb85\udc44"
+        clock_07 : "\udb85\udc45"
+        clock_08 : "\udb85\udc46"
+        clock_09 : "\udb85\udc47"
+        clock_10 : "\udb85\udc48"
+        clock_11 : "\udb85\udc49"
+        clock_12 : "\udb85\udc4a"
+        clock_16 : "SNACK TIME !"
+        clock_21 : "Zzz..."
+        clock_22 : "Zzz..."
+        clock_23 : "Zzz..."
+      calendar: 
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "center"
+        direction: "down"
+        show_holidays: true
+        show_week_numbers: true
+        country_code: "PT"
+        holiday_color: "#FF6464"
+      callbacks:
+        on_left: "toggle_calendar"
+        on_middle: "toggle_label"
+        on_right: "next_timezone"
       label_shadow:
         enabled: true
         color: "black"
-        radius: 2
+        radius: 3
         offset: [ 1, 1 ]
   glazewm_workspaces:
     type: "glazewm.workspaces.GlazewmWorkspacesWidget"
     options:
       offline_label: "GlazeWM..."
-      hide_empty_workspaces: false
+      hide_empty_workspaces: true
       hide_if_offline: false
       btn_shadow:
         enabled: false
@@ -115,9 +172,17 @@ widgets:
         left: 4
         bottom: 0
         right: 4
-      populated_label: "{name}{display_name}"
+      app_icons: 
+        enabled_populated: true
+        enabled_active: true
+        size: 18
+        max_icons: 1
+        hide_label: false
+        hide_duplicates: true
+        hide_floating: false
+      populated_label: "{name}"
       empty_label: "{name}{display_name}"
-      active_populated_label: "{name}{display_name}"
+      active_populated_label: "{name}"
       active_empty_label: "{name}{display_name}"
   glazewm_tiling_direction:
     type: "glazewm.tiling_direction.GlazewmTilingDirectionWidget"
@@ -222,15 +287,15 @@ widgets:
       label_alt: "<span>\uf437</span> {info[histograms][cpu_percent]}"
       update_interval: 2000
       histogram_icons:
-        - '\u2581' # 0%
-        - '\u2581' # 10%
-        - '\u2582' # 20%
-        - '\u2583' # 30%
-        - '\u2584' # 40%
-        - '\u2585' # 50%
-        - '\u2586' # 60%
-        - '\u2587' # 70%
-        - '\u2588' # 80%+
+        - "\u2581" # 0%
+        - "\u2581" # 10%
+        - "\u2582" # 20%
+        - "\u2583" # 30%
+        - "\u2584" # 40%
+        - "\u2585" # 50%
+        - "\u2586" # 60%
+        - "\u2587" # 70%
+        - "\u2588" # 80%+
       histogram_num_columns: 8
       callbacks:
         on_right: "exec cmd /c Taskmgr"
@@ -282,20 +347,52 @@ widgets:
         radius: 2
         offset: [ 1, 1 ]
   wifi:
-    type: "yasb.wifi.WifiWidget"   
+    type: "yasb.wifi.WifiWidget"
     options:
       label: "<span>{wifi_icon}</span>"
       label_alt: "{wifi_name} {wifi_strength}%"
       update_interval: 5000
       callbacks:
-        on_left: "exec quick_settings"
+        on_left: "toggle_menu"
         on_middle: "exec cmd.exe /c start ms-settings:network"
         on_right: "toggle_label"
+      ethernet_label: "<span>{wifi_icon}</span>"
+      ethernet_label_alt: "<span>{wifi_icon}</span>{ip_addr}"
+      ethernet_icon: "\ueba9"
+      get_exact_wifi_strength: false  # Optional. Will require location access permission if true.
+      wifi_icons: [
+        "\udb82\udd2e",  # Icon for 0% strength
+        "\udb82\udd1f",  # Icon for 1-24% strength
+        "\udb82\udd22",  # Icon for 25-49% strength
+        "\udb82\udd25",  # Icon for 50-74% strength
+        "\udb82\udd28"   # Icon for 75-100% strength
+      ]
       label_shadow:
         enabled: true
         color: "black"
-        radius: 2
+        radius: 3
         offset: [ 1, 1 ]
+      menu_config:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "right"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+        wifi_icons_secured: [
+          "\ue670",
+          "\ue671",
+          "\ue672",
+          "\ue673",
+        ]
+        wifi_icons_unsecured: [
+          "\uec3c",
+          "\uec3d",
+          "\uec3e",
+          "\uec3f",
+        ]
   power_menu:
     type: "yasb.power_menu.PowerMenuWidget"
     options:
@@ -324,7 +421,7 @@ widgets:
       label_collapsed: "\udb80\udf5e"
       label_expanded: "\udb80\udf5f"
       label_position: "right"
-      icon_size: 12
+      icon_size: 14
       pin_click_modifier: "alt"
       show_unpinned: false
       show_battery: false
@@ -406,6 +503,7 @@ widgets:
   apps:
     type: "yasb.applications.ApplicationsWidget"
     options:
+      image_icon_size: 20
       container_padding:
         top: 0
         left: 8
@@ -426,11 +524,18 @@ widgets:
     type: "yasb.taskbar.TaskbarWidget"
     options:
       monitor_exclusive: true
+      show_only_visible: false
+      strict_filtering: false
+      tooltip: true
+      callbacks:
+        on_left: "toggle_window"
+        on_middle: "do_nothing"
+        on_right: "close_app"
       animation:
         enabled: true
         duration: 200
         type: "fadeInOut"
-      icon_size: 12
+      icon_size: 20
       ignore_apps:
         processes: []
         titles: []
@@ -450,6 +555,12 @@ widgets:
         color: "black"
         radius: 3
         offset: [ 1, 1 ]
+      preview:
+        enabled: true
+        width: 240
+        delay: 400
+        padding: 8
+        margin: 8
   wallpapers:
     type: "yasb.wallpapers.WallpapersWidget"
     options:
@@ -558,3 +669,124 @@ widgets:
         color: "black"
         radius: 3
         offset: [ 1, 1 ]
+  pomodoro:
+    type: "yasb.pomodoro.PomodoroWidget"
+    options:
+      label: "<span>{icon}</span>{remaining}"
+      label_alt: "<span>{icon}</span> {session}/{total_sessions} - {status}"
+      work_duration: 25
+      break_duration: 5
+      long_break_duration: 15
+      long_break_interval: 4
+      auto_start_breaks: true
+      auto_start_work: true
+      sound_notification: true
+      show_notification: true
+      hide_on_break: false
+      session_target: 8
+      icons:
+        work: "\uf252"
+        break: "\uf253"
+        paused: "\uf254"
+      container_padding:
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+      menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "right"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+        circle_background_color: "#09ffffff"
+        circle_work_progress_color: "#88c0d0"
+        circle_break_progress_color: "#a3be8c"
+        circle_thickness: 8
+        circle_size: 160
+      callbacks:
+        on_left: "toggle_menu"
+        on_middle: "reset_timer"
+        on_right: "toggle_label"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
+  todo:
+    type: "yasb.todo.TodoWidget"
+    options:
+      label: "\uf0ae {count}"
+      label_alt: "\uf0aeTasks: {count}"
+      menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "center"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+      icons:
+        add: "\uf501 New Task"
+        edit: "Edit"
+        delete: "Delete"
+        date: "\ue641"
+        category: "\uf412"
+        checked: "\udb80\udd34"
+        unchecked: "\udb80\udd30"
+        sort: "\ueab4"
+        no_tasks: "\uf4a0"
+      categories:
+        default:
+          label: "General"
+        soon:
+          label: "JIRA"
+        today:
+          label: "Documentation"
+        urgent:
+          label: "Code"
+        important:
+          label: "Life"
+      callbacks:
+        on_left: "toggle_menu"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
+  ai_chat:
+    type: "yasb.ai_chat.AiChatWidget"
+    options:
+      label: "<span>\uf086</span>"
+      chat:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "center"
+        direction: "down"
+        offset_left: 0
+        offset_top: 6
+      icons:
+        send: "\uf1d8"
+        stop: "\uf04d"
+        clear: "\uf1f8"
+        assistant: "\udb81\ude74"
+      notification_dot:
+        enabled: false
+        corner: "top_right"
+        color: "red"
+        margin: [ 0, 2 ]
+      callbacks:
+        on_left: "toggle_chat"
+      providers:
+        - provider: "OpenAI"
+          api_endpoint: "https://api.openai.com/v1"
+          credential: ""
+          models:
+          - name: "gpt-4o-mini"
+            label: "4o-mini"
+            temperature: 0.7
+            top_p: 1.0
+            max_tokens: 4096

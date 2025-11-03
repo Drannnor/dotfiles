@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1761647038,
+    "title": "move bm Documentation to SPT space",
+    "description": "",
+    "category": "default",
+    "created_at": "2025-10-28T10:23:58.089019",
+    "completed": false,
+    "order": 5
+  },
+  {
+    "id": 1760618577,
+    "title": "Research ITIL",
+    "description": "",
+    "category": "default",
+    "created_at": "2025-10-16T13:42:57.521987",
+    "completed": false,
+    "order": 18
+  },
+  {
+    "id": 1760618562,
+    "title": "Research COBIT",
+    "description": "",
+    "category": "default",
+    "created_at": "2025-10-16T13:42:42.047581",
+    "completed": false,
+    "order": 17
+  },
+  {
+    "id": 1758716804,
+    "title": "extend planning info",
+    "description": "more enfases on task breakdown after approval",
+    "category": "default",
+    "created_at": "2025-09-24T13:26:44.895207",
+    "completed": false,
+    "order": 11
+  },
+  {
+    "id": 1758716779,
+    "title": "extend pipeline info for dev",
+    "description": "include documentation stages",
+    "category": "default",
+    "created_at": "2025-09-24T13:26:19.746374",
+    "completed": false,
+    "order": 10
+  },
+  {
+    "id": 1761558340,
+    "title": "Create Missing Debug Command Tasks",
+    "description": "",
+    "category": "today",
+    "created_at": "2025-10-27T09:45:40.119696",
+    "completed": false,
+    "order": 4
+  }
+]
