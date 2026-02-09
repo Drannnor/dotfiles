@@ -32,8 +32,8 @@ bars:
       enabled: true
       duration: 200
     widgets:
-      left: ["power_menu","glazewm_workspaces","glazewm_tiling_direction","glazewm_binding_mode","active_window"]
-      center: ["apps","clock","taskbar"]
+      left: ["power_menu","glazewm_workspaces","glazewm_tiling_direction","glazewm_binding_mode","active_window","taskbar"]
+      center: ["apps","clock"]
       right: ["systray", "todo", "pomodoro","cpu","media","volume","bluetooth", "wifi", "battery"]
     layouts:
       left:
@@ -46,7 +46,7 @@ bars:
         alignment: "right"
         stretch: false
   vertical-monitor-bar:
-    screens: ['DELL P2422H (2)'] 
+    screens: ['DELL P2422H (1)'] 
     enabled: true
     class_name: "yasb-bar"
     alignment:
@@ -75,8 +75,8 @@ bars:
       enabled: true
       duration: 200
     widgets:
-      left: ["power_menu","glazewm_workspaces","glazewm_tiling_direction","glazewm_binding_mode","active_window"]
-      center: ["clock","taskbar"]
+      left: ["power_menu","glazewm_workspaces","glazewm_tiling_direction","glazewm_binding_mode","active_window","taskbar"]
+      center: ["clock"]
       right: ["systray","cpu","volume","bluetooth", "wifi", "battery"]
     layouts:
       left:
