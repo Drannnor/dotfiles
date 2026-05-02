@@ -114,7 +114,7 @@ zstyle ':omz:update' frequency 10
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=$HOME/.config/zsh_custom
+ZSH_CUSTOM=$HOME/.config/zsh/oh-my-zsh/custom
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
