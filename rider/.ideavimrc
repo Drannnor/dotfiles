@@ -1,0 +1,271 @@
+" vim settings
+set scrolloff=10
+set history=1000
+set number relativenumber
+
+" status bar
+set showmode
+
+" leader
+map <space> <nop>
+let mapleader="\<space>"
+
+map <leader>wk ilet g:WhichKeyDesc_
+
+" find and replace
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set gdefault
+nmap <leader>nh :noh<CR>
+
+" ideavim settings
+set ideajoin
+set ideamarks
+
+" better HJKL
+map H ^
+map L $
+map J }
+map K {
+
+" Redo
+map U <C-r>
+
+" better escape
+imap jk <Esc>
+map <C-j> <Esc>
+
+" location
+nmap <C-o> <Action>(Back)
+nmap <C-i> <Action>(Forward)
+
+" buffer (buffer < window < tab)
+nmap <leader>xx <Action>(CloseContent)
+nmap <leader>xa <Action>(CloseAllEditors)
+nmap <leader>xo <Action>(CloseAllEditorsButActive)
+nmap <leader>xp <Action>(CloseAllUnpinnedEditors)
+
+" window
+nmap <C-Tab> <Action>(PreviousTab)
+nmap <Tab> <Action>(NextTab)
+nmap <leader>p <Action>(PinActiveEditorTab)
+
+" tab
+map <C-=> <Action>(SplitHorizontally)
+map <C--> <Action>(SplitVertically)
+map <C-BS> <Action>(Unsplit)
+
+nmap <C-k> <C-w>k
+nmap <C-j> <C-w>j
+
+nmap <C-h> <C-w>h
+nmap <C-l> <C-w>l
+
+nmap <leader>ww <Action>(HideAllWindows)
+nmap <leader>wm <Action>(MaximizeEditorInSplit)
+nmap <leader>wu <Action>(UnsplitAll)
+
+" menu
+nmap <leader>mm <Action>(MainMenu)
+nmap <leader>ma <Action>(AnalyzeMenu)
+nmap <leader>mb <Action>(BuildMenu)
+nmap <leader>mc <Action>(CodeMenu)
+nmap <leader>mf <Action>(FindMenuGroup)
+nmap <leader>mg <Action>(GoToMenu)
+nmap <leader>ms <Action>(ScopeViewPopupMenu)
+nmap <leader>mt <Action>(EditorTabPopupMenu)
+nmap <leader>mw <Action>(ToolWindowsGroup)
+
+" file
+nmap <leader>of <Action>(OpenFile)
+nmap <leader>yp <Action>(CopyAbsolutePath)
+nmap <leader>rf <Action>(RecentFiles)
+nmap <leader>rl <Action>(RecentLocations)
+nmap <leader>rp <Action>(ManageRecentProjects)
+nmap <leader>sh <Action>(LocalHistory.ShowHistory)
+nmap <leader>sf <Action>(ShowFilePath)
+nmap <leader>si <Action>(SelectIn)
+nmap <leader>fp <Action>(FindInPath)
+nmap <leader>rp <Action>(ReplaceInPath)
+"nmap <leader>sw <Action>($SearchWeb)
+
+" tag
+nmap <leader>fs <Action>(FileStructurePopup)
+nmap <leader>hl <Action>(HighlightUsagesInFile)
+nmap <leader>qp <Action>(QuickPreview)
+nmap <leader>qd <Action>(QuickDefinition)
+nmap <leader>qD <Action>(QuickTypeDefinition)
+nmap <leader>qm <Action>(QuickJavaDoc)
+
+" code
+map <leader>c <Action>(CommentByLineComment)
+map <leader>C <Action>(CommentByBlockComment)
+nmap <leader>qf <Action>(ShowIntentionActions)
+nmap <leader>se <Action>(ShowErrorDescription)
+nmap <leader>om <Action>(OverrideMethods)
+nmap <leader>im <Action>(ImplementMethods)
+nmap <leader>fc <Action>(ReformatCode)
+nmap <leader>ic <Action>(InspectCode)
+nmap <leader>so <Action>(SelectAllOccurrences)
+nmap <leader>gc <Action>(Generate)
+nmap <leader>gt <Action>(GoToTest)
+
+" run
+nmap <leader>rc <Action>(ContextRun)
+nmap <leader>rx<Action>(ChooseRunConfiguration)
+nmap <leader>rr <Action>(Rerun)
+nmap <leader>rt <Action>(RunTests)
+nmap <leader>rs <Action>(Stop)
+
+" debug
+nmap <leader>dc <Action>(ContextDebug)
+nmap <leader>dx <Action>(Debug)
+nmap <leader>db <Action>(ToggleLineBreakpoint)
+nmap <leader>de <Action>(EditBreakpoint)
+nmap <leader>dv <Action>(ViewBreakpoints)
+
+" build
+nmap <leader>bb <Action>(BuildMenu)
+
+" refactor
+nmap <leader>rn <Action>(RenameElement)
+nmap <leader>re <Action>(Refactorings.QuickListPopupAction)
+nmap <leader>uw <Action>(Unwrap)
+map <leader>sw <Action>(SurroundWith)
+nmap <leader>sd <Action>(SafeDelete)
+nmap <leader>oi <Action>(OptimizeImports)
+
+" hierarchy
+nmap <leader>hc <Action>(CallHierarchy)
+nmap <leader>hm <Action>(MethodHierarchy)
+nmap <leader>ht <Action>(TypeHierarchy)
+
+" collapse
+nmap zz <Action>(EditorScrollToCenter)
+nmap za <Action>(ExpandCollapseToggleAction)
+
+nmap zc <Action>(CollapseAllRegions)
+nmap zo <Action>(ExpandAllRegions)
+
+" zen
+nmap <leader>z <Action>(ToggleZenMode)
+
+" []
+nmap [b <Action>(PreviousTab)
+nmap ]b <Action>(NextTab)
+nmap [g <Action>(GotoPreviousError)
+nmap ]g <Action>(GotoNextError)
+nmap [u <Action>(GotoPrevElementUnderCaretUsage)
+nmap ]u <Action>(GotoNextElementUnderCaretUsage)
+nmap [o <Action>(PreviousOccurence)
+nmap ]o <Action>(NextOccurence)
+nmap [m <Action>(MethodUp)
+nmap ]m <Action>(MethodDown)
+nmap [c <Action>(JumpToLastChange)
+nmap ]c <Action>(JumpToNextChange)
+
+" goto
+nmap <leader>a <Action>(GotoAction)
+nmap <leader>gg <Action>(Gradle.ExecuteTask)
+nmap ga <Action>(SearchEverywhere)
+nmap gc <Action>(GotoClass)
+nmap gf <Action>(GotoFile)
+nmap gs <Action>(GotoSymbol)
+nmap gt <Action>(GoToTest)
+nmap gT <Action>(TextSearchAction)
+nmap gp <Action>(GotoSuperMethod)
+nmap gd <Action>(GotoDeclaration)
+nmap gD <Action>(GotoTypeDeclaration)
+nmap gu <Action>(ShowUsages)
+nmap gR <Action>(FindUsages)
+nmap gi <Action>(GotoImplementation)
+nmap gI <Action>(QuickImplementations)
+nmap gn <Action>(ShowNavBar)
+nmap gm %
+
+" terminal
+nmap <leader>tt <Action>(ActivateTerminalToolWindow)
+nmap <leader>tc <Action>(Terminal.OpenInTerminal)
+
+" bookmark
+nmap mm <Action>(ToggleBookmark)
+nmap ms <Action>(ShowBookmarks)
+
+" todo
+nmap <leader>to <Action>(ActivateTODOToolWindow)
+
+" task
+nmap <leader>ts <Action>(tasks.goto)
+
+" idea join
+nmap \\jl <Action>(EditorJoinLines)
+
+" vcs
+nmap <leader>vv <Action>(VimActions)
+nnoremap <leader>ve :e ~/.ideavimrc<CR>
+nnoremap <leader>vr :action IdeaVim.ReloadVimRc.reload<CR>
+let g:WhichKeyDesc_Vim = "<leader>v Vim"
+let g:WhichKeyDesc_Vim_Actions = "<leader>vv Vim Actions"
+let g:WhichKeyDesc_Vim_Edit = "<leader>ve Edit IdeaVimRc"
+let g:WhichKeyDesc_Vim_Reload = "<leader>vr Reload IdeaVimRc"
+
+" text-object (bundle plugin)
+set vim-paragraph-motion
+set textobj-indent
+"set textobj-entire
+set argtextobj
+
+" jump-motion (required idea plugin: IdeaVim-EasyMotion, AceJump)
+set easymotion
+
+" highlight yank (bundle plugin)
+set highlightedyank
+let g:highlightedyank_highlight_duration = "1000"
+let g:highlightedyank_highlight_color = "rgba(57, 197, 187, 155)"
+
+" string manipulate (required idea plugin: String Manipulation)
+nmap <leader>ss <Action>(osmedile.intellij.stringmanip.PopupChoiceAction)
+
+" surround (bundle plugin)
+" usage: https://github.com/tpope/vim-surround
+set surround
+
+set quickscope
+let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
+
+" exchange (bundle plugin)
+" usage: https://github.com/tommcdo/vim-exchange
+set exchange
+
+" nerdtree (bundle plugin)
+set NERDTree
+
+set peekaboo
+
+" Which-key settings
+set which-key
+set notimeout
+let g:WhichKey_FontSize = 14
+let g:WhichKey_PrefixColor = "#a403fe"
+let g:WhichKey_CommandColor = "#01ffff"
+let g:WhichKey_PrefixStyle = "bold"
+let g:WhichKey_PrefixStyle = "bold"
+let g:WhichKey_CommandStyle = "bold"
+let g:WhichKey_KeyStyle = "italic"
+let g:WhichKey_SortOrder = "by_key_prefix_first"
+
+"" VimEverywhere
+set VimEverywhere
+
+" replace with register (bundle plugin)
+" usage: https://github.com/vim-scripts/ReplaceWithRegister
+set ReplaceWithRegister
+
+" continuous shift (a formatter should help you)
+xnoremap < <gv
+xnoremap > >gv
+
+" alias
+nmap <C-a> ggVG"+y
