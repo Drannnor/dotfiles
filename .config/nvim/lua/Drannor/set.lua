@@ -1,7 +1,7 @@
 vim.opt.termguicolors = true
 
 vim.opt.number = true
-vim.opt.relativenumber = false
+vim.opt.relativenumber = true
 
 vim.opt.expandtab = true
 vim.opt.tabstop = 4
@@ -16,9 +16,9 @@ vim.opt.listchars = {
     space = "·",
 }
 
-vim.opt.wrap = false
+vim.opt.wrap = true
 
-vim.opt.hlsearch = false
+vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
 vim.opt.swapfile = false

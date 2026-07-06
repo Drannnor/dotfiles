@@ -50,3 +50,15 @@ map("x", "<leader>p", '"_dP', { desc = "Paste over selection without replacing y
 
 -- Delete text without copying it into registers (black-hole register)
 map({ "n", "v" }, "<leader>d", '"_d', { desc = "Delete without yanking" })
+
+-- Clear Search highlights
+map({ "n", "v" }, "<leader>nh", ':noh<CR>', { desc = "Clear Search Highlights" })
+
+-- Yank to clipboard
+map({ "v", "n" }, '<leader>y', '"+y', { desc = "Yank to Clipboard" })
+map({ "n" }, '<leader>Y', '"+yg_', { desc = "Yank until the end of the line to Clipboard" })
+map({ "n" }, '<leader>yy', '"+yy', { desc = "Yank line to Clipboard" })
+
+-- Paste from clipboard
+map({ "v", "n" }, '<leader>p', '"+p', { desc = "paste from Clipboard" })
+map({ "v", "n" }, '<leader>P', '"+P', { desc = "Paste from Clipboard" })

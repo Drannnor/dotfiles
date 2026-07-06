@@ -35,7 +35,6 @@ return {
                         ["<C-L>"] = actions.select_vertical,
                         ["<C-X>"] = actions.select_tab,
                         ["<C-h>"] = "which_key",
-                        ["<esc>"] = actions.close,
                         ['<C-g>'] = function(prompt_bufnr) -- TODO: TEST that this works
                             -- Use nvim-window-picker to choose the window by dynamically attaching a function
                             local action_set = require('telescope.actions.set')
@@ -65,8 +64,8 @@ return {
             },
             pickers = {
                 find_files = {
-                    hidden = false,
-                    no_ignore = false,
+                    hidden = true,
+                    no_ignore = true,
                 },
                 file_browser = {
                     -- use the "ivy" theme if you want
@@ -129,6 +128,7 @@ return {
             { "<leader>ft", "<cmd>Telescope colorscheme<cr>", desc = "Browse Color Schemes" },
             { "<leader>m", "<cmd>Telescope noice<cr>", desc = "Noice message history" },
             { "<leader>fe", "<cmd>Telescope file_browser<cr>", desc = "file browser" },
+            { "<leader>fr", "<cmd>Telescope registers<cr>", desc = "Registers" },
         }
     end,
 }
