@@ -28,7 +28,7 @@ return {
             enabled = true,
         },
         popupmenu = {
-            enabled = true,
+            enabled = false,
         },
         notify = {
             enabled = true
@@ -44,23 +44,23 @@ return {
                     height = "auto",
                 },
             },
-            popupmenu = {
-                relative = "editor",
-                position = {
-                    col = "50%",
-                },
-                size = {
-                    width = 60,
-                    height = 10,
-                },
-                border = {
-                    style = "rounded",
-                    padding = { 0, 1 },
-                },
-                win_options = {
-                    winhighlight = { Normal = "Normal", FloatBorder = "DiagnosticInfo" },
-                },
-            },
+            -- popupmenu = {
+            --     relative = "editor",
+            --     position = {
+            --         col = "50%",
+            --     },
+            --     size = {
+            --         width = 60,
+            --         height = 10,
+            --     },
+            --     -- border = {
+            --     --     style = "rounded",
+            --     --     padding = { 0, 1 },
+            --     -- },
+            --     win_options = {
+            --         winhighlight = { Normal = "Normal", FloatBorder = "DiagnosticInfo" },
+            --     },
+            -- },
         },
     },
     keys = {
