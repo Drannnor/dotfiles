@@ -1,7 +1,7 @@
 # restore_all_alt_tab_windows.ps1
 param(
-    [int]$DelayMs = 100,
-    [int]$TotalWorkspaces = 13,
+    [int]$DelayMs = 900,
+    [int]$TotalWorkspaces = 17,
     [switch]$VerboseLog
 )
 

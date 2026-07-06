@@ -124,43 +124,41 @@ workspaces:
   - name: "1"
     display_name: ""
     keep_alive: true
-    bind_to_monitor: 0
-  - name: "2" 
-    display_name: ''
-    keep_alive: true
     bind_to_monitor: 1
-  - name: "3"
+  - name: "2"
     display_name: ""
     keep_alive: false
-    bind_to_monitor: 1
+    bind_to_monitor: 2
+  - name: "3" 
+    display_name: ''
+    keep_alive: true
+    bind_to_monitor: 2
   - name: "4"
     display_name: ""
     keep_alive: false
-    bind_to_monitor: 1
+    bind_to_monitor: 0
   - name: "5"
     display_name: "󰦱"
     keep_alive: false
-    bind_to_monitor: 1
+    bind_to_monitor: 2
   - name: "6"
     display_name: "󰭻"
     keep_alive: true 
-    bind_to_monitor: 1
+    bind_to_monitor: 0
   - name: "7"
     display_name: ""
     keep_alive: false
-    bind_to_monitor: 1
   - name: "8"
     display_name: "󰇮"
     keep_alive: false
-    bind_to_monitor: 1
+    bind_to_monitor: 2
   - name: "9"
     display_name: ""
     keep_alive: false
-    bind_to_monitor: 0
+    bind_to_monitor: 2
   - name: "10"
     display_name: "󰐱"
     keep_alive: false
-    bind_to_monitor: 1
   - name: "11"
     display_name: "󱃗"
     keep_alive: false
@@ -168,7 +166,6 @@ workspaces:
   - name: "12"
     display_name: ""
     keep_alive: false
-    bind_to_monitor: 0
   - name: "13"
     display_name: ""
     keep_alive: false
@@ -176,11 +173,11 @@ workspaces:
   - name: "15"
     display_name: "󰦱"
     keep_alive: false
-    bind_to_monitor: 0
+    bind_to_monitor: 1
   - name: "17"
     display_name: ""
     keep_alive: false
-    bind_to_monitor: 1
+    bind_to_monitor: 2
 
 window_rules:
   - commands: ['ignore']
@@ -203,13 +200,13 @@ window_rules:
       #Ignore rename popup
       - window_title: { regex: 'Rename' }
 
-  - commands: ["move --workspace 1"]
+  - commands: ["move --workspace 4"]
     match:
       - window_process: { regex: "WindowsTerminal" }
-  - commands: ["move --workspace 3"]
+  - commands: ["move --workspace 1"]
     match:
       - window_process: { regex: "rider64|Code" }
-  - commands: ["move --workspace 2"]
+  - commands: ["move --workspace 3"]
     match:
       - window_process: { regex: "msedge|brave|chrome" }
   - commands: ["move --workspace 5"]
@@ -230,9 +227,6 @@ window_rules:
   - commands: ["move --workspace 8"]
     match:
       - window_process: { equals: "thunderbird" }
-  - commands: ["move --workspace 9", "toggle-floating --centered"]
-    match:
-      - window_process: { equals: "houdini" }
   - commands: ["move --workspace 10"]
     match:
       - window_process: { equals: "Code" }
@@ -351,7 +345,7 @@ keybindings:
         -Command "& {
           $scriptDir = Split-Path -Parent $env:GLAZEWM_CONFIG_PATH;
           $script    = Join-Path $scriptDir 'cycle_workspaces.ps1';
-          powershell -NoProfile -ExecutionPolicy Bypass -File $script -DelayMs 60 -TotalWorkspaces 13 -VerboseLog true
+          powershell -NoProfile -ExecutionPolicy Bypass -File $script -DelayMs 120 -TotalWorkspaces 13 -VerboseLog true
         }"
     bindings: ['alt+shift+M']
 
